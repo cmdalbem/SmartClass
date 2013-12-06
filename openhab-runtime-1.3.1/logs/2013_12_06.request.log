@@ -1,0 +1,12 @@
+127.0.0.1 -  -  [06/déc./2013:14:35:37 +0000] "GET /openhab.app?sitemap=demo HTTP/1.1" 404 1410 
+127.0.0.1 -  -  [06/déc./2013:14:35:37 +0000] "GET /favicon.ico HTTP/1.1" 404 1410 
+127.0.0.1 -  -  [06/déc./2013:14:40:52 +0000] "GET /openhab.app?sitemap=demo HTTP/1.1" 500 3902 
+127.0.0.1 -  -  [06/déc./2013:14:40:53 +0000] "GET /openhab.app?sitemap=demo HTTP/1.1" 500 3902 
+127.0.0.1 -  -  [06/déc./2013:14:41:03 +0000] "GET /openhab.app?sitemap=demo HTTP/1.1" 500 3902 
+127.0.0.1 -  -  [06/déc./2013:14:41:04 +0000] "GET /openhab.app?sitemap=demo HTTP/1.1" 500 3902 
+127.0.0.1 -  -  [06/déc./2013:14:41:04 +0000] "GET /openhab.app?sitemap=demo HTTP/1.1" 500 3902 
+127.0.0.1 -  -  [06/déc./2013:14:41:04 +0000] "GET /openhab.app?sitemap=demo HTTP/1.1" 500 3902 
+127.0.0.1 -  -  [06/déc./2013:14:41:05 +0000] "GET /openhab.app?sitemap=demo HTTP/1.1" 500 3902 
+127.0.0.1 -  -  [06/déc./2013:14:41:05 +0000] "GET /openhab.app?sitemap=demo HTTP/1.1" 500 3902 
+127.0.0.1 -  -  [06/déc./2013:14:41:05 +0000] "GET /openhab.app?sitemap=demo HTTP/1.1" 500 3902 
+127.0.0.1 -  -  [06/déc./2013:14:41:08 +0000] "GET /openhab.app HTTP/1.1" 500 3911 

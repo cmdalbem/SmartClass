@@ -1,0 +1,87 @@
+15:35:32.436 WARN  o.o.c.core.ConfigDispatcher[:192]- Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+15:35:32.898 INFO  o.o.c.internal.CoreActivator[:92]- openHAB runtime has been started (v1.3.1).
+15:35:34.574 INFO  o.o.i.s.i.DiscoveryServiceImpl[:92]- mDNS service has been started
+15:35:35.319 INFO  o.o.i.r.i.RESTApplication[:158]- Started REST API at /rest
+15:35:44.869 INFO  o.o.u.w.i.s.WebAppServlet[:99]- Started Classic UI at /openhab.app
+15:40:52.187 WARN  o.e.j.servlet.ServletHandler[:553]- /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'demo' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:134)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+15:40:53.472 WARN  o.e.j.servlet.ServletHandler[:553]- /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'demo' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:134)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+15:41:03.646 WARN  o.e.j.servlet.ServletHandler[:553]- /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'demo' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:134)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+15:41:04.340 WARN  o.e.j.servlet.ServletHandler[:553]- /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'demo' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:134)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+15:41:04.707 WARN  o.e.j.servlet.ServletHandler[:553]- /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'demo' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:134)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+15:41:04.966 WARN  o.e.j.servlet.ServletHandler[:553]- /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'demo' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:134)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+15:41:05.174 WARN  o.e.j.servlet.ServletHandler[:553]- /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'demo' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:134)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+15:41:05.361 WARN  o.e.j.servlet.ServletHandler[:553]- /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'demo' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:134)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+15:41:05.550 WARN  o.e.j.servlet.ServletHandler[:553]- /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'demo' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:134)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+15:41:08.344 WARN  o.e.j.servlet.ServletHandler[:553]- /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'default' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:134)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+15:41:22.585 INFO  o.o.i.r.i.RESTApplication[:174]- Stopped REST API
+15:41:26.596 INFO  o.o.u.w.i.s.WebAppServlet[:110]- Stopped Classic UI
