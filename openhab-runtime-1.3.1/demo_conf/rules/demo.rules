@@ -31,64 +31,19 @@ end
  * This is a demo rule which simulates a real dimmer by reacting to increase/decrease commands 
  * and posting an updated state on the bus 
  */
-rule "Dimmed Light Front"
+rule "Dimmed Light"
 	when
-		Item Light_Front received command
+		Item DimmedLight received command
 	then
 		var Number percent = 0
-		if(Light_Front.state instanceof DecimalType) percent = Light_Front.state as DecimalType 
+		if(DimmedLight.state instanceof DecimalType) percent = DimmedLight.state as DecimalType 
 			
 		if(receivedCommand==INCREASE) percent = percent + 5
 		if(receivedCommand==DECREASE) percent = percent - 5
 
 		if(percent<0)   percent = 0
 		if(percent>100) percent = 100
-		postUpdate(Light_Front, percent);
-end
-rule "Dimmed Light Back"
-	when
-		Item Light_Back received command
-	then
-		
-		var Number percent = 0
-		if(Light_Back.state instanceof DecimalType) percent = Light_Back.state as DecimalType 
-			
-		if(receivedCommand==INCREASE) percent = percent + 5
-		if(receivedCommand==DECREASE) percent = percent - 5
-
-		if(percent<0)   percent = 0
-		if(percent>100) percent = 100
-		postUpdate(Light_Back, percent);
-end
-rule "Dimmed Shutter Front"
-	when
-		Item Shutter_Front received command
-	then
-		
-		var Number percent = 0
-		if(Shutter_Front.state instanceof DecimalType) percent = Shutter_Front.state as DecimalType 
-			
-		if(receivedCommand==INCREASE) percent = percent + 5
-		if(receivedCommand==DECREASE) percent = percent - 5
-
-		if(percent<0)   percent = 0
-		if(percent>100) percent = 100
-		postUpdate(Shutter_Front, percent);
-end
-rule "Dimmed Shutter Back"
-	when
-		Item Shutter_Back received command
-	then
-		
-		var Number percent = 0
-		if(Shutter_Back.state instanceof DecimalType) percent = Shutter_Back.state as DecimalType 
-			
-		if(receivedCommand==INCREASE) percent = percent + 5
-		if(receivedCommand==DECREASE) percent = percent - 5
-
-		if(percent<0)   percent = 0
-		if(percent>100) percent = 100
-		postUpdate(Shutter_Back, percent);
+		postUpdate(DimmedLight, percent);
 end
 
 /**
