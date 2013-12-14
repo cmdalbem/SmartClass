@@ -19,4 +19,5 @@ sitemap demo label="Main Menu"
 		Slider item=Shutter_Front
 		Slider item=Shutter_Back
 	}
+
 }

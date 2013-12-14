@@ -2217,3 +2217,279 @@ org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found
 12:37:59.394 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
 12:37:59.394 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
 12:38:41.170 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+13:35:45.357 INFO  o.o.c.internal.CoreActivator[:92]- openHAB runtime has been started (v1.3.1).
+13:36:01.223 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'db4o.persist'
+13:36:02.156 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'exec.persist'
+13:36:02.225 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'logging.persist'
+13:36:02.342 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'rrd4j.persist'
+13:36:02.770 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.items'
+13:36:04.767 INFO  o.o.i.s.i.DiscoveryServiceImpl[:92]- mDNS service has been started
+13:36:13.731 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.sitemap'
+13:36:14.913 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.script'
+13:36:14.998 INFO  o.o.i.r.i.RESTApplication[:158]- Started REST API at /rest
+13:36:20.862 INFO  o.o.u.w.i.s.WebAppServlet[:99]- Started Classic UI at /openhab.app
+13:36:26.081 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.rules'
+13:37:36.975 INFO  o.o.c.s.AbstractActiveService[:189]- HTTP Refresh Service has been started
+13:37:37.168 INFO  o.o.c.s.AbstractActiveService[:189]- NTP Refresh Service has been started
+13:37:39.546 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+13:37:39.699 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+13:37:41.130 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:37:46.289 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:38:01.537 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:38:16.504 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:38:31.361 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:38:34.875 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:38:46.325 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:39:01.217 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:39:07.191 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:39:09.398 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+13:39:16.308 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:39:31.200 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:39:46.362 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:39:59.454 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:40:03.112 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:40:16.204 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:40:31.329 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:40:46.297 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:41:01.299 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:41:16.505 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:41:31.325 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:41:46.309 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:42:01.266 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:42:11.850 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+13:42:16.301 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:42:31.342 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name 'Luminosity' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:42:31.894 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:42:34.214 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+13:42:36.286 ERROR o.o.m.r.i.engine.RuleEngine[:287]- Error during the execution of startup rule 'Startup': Could not invoke method: org.openhab.model.script.actions.BusEvent.postUpdate(org.openhab.core.items.Item,java.lang.String) on instance: null
+13:42:48.022 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.ClassCastException: Cannot cast org.openhab.core.types.UnDefType to org.openhab.core.library.types.DecimalType
+	at java.lang.Class.cast(Class.java:3084)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateCastedExpression(XbaseInterpreter.java:386)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+13:43:03.004 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.ClassCastException: Cannot cast org.openhab.core.types.UnDefType to org.openhab.core.library.types.DecimalType
+	at java.lang.Class.cast(Class.java:3084)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateCastedExpression(XbaseInterpreter.java:386)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+13:43:18.100 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.ClassCastException: Cannot cast org.openhab.core.types.UnDefType to org.openhab.core.library.types.DecimalType
+	at java.lang.Class.cast(Class.java:3084)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateCastedExpression(XbaseInterpreter.java:386)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+13:43:33.034 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.ClassCastException: Cannot cast org.openhab.core.types.UnDefType to org.openhab.core.library.types.DecimalType
+	at java.lang.Class.cast(Class.java:3084)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateCastedExpression(XbaseInterpreter.java:386)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+13:43:48.046 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.ClassCastException: Cannot cast org.openhab.core.types.UnDefType to org.openhab.core.library.types.DecimalType
+	at java.lang.Class.cast(Class.java:3084)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateCastedExpression(XbaseInterpreter.java:386)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+13:44:03.303 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.ClassCastException: Cannot cast org.openhab.core.types.UnDefType to org.openhab.core.library.types.DecimalType
+	at java.lang.Class.cast(Class.java:3084)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateCastedExpression(XbaseInterpreter.java:386)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+13:44:18.078 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.ClassCastException: Cannot cast org.openhab.core.types.UnDefType to org.openhab.core.library.types.DecimalType
+	at java.lang.Class.cast(Class.java:3084)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateCastedExpression(XbaseInterpreter.java:386)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+13:44:26.352 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:46:18.693 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:49:11.345 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:50:43.653 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:51:45.914 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:51:46.238 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name '<unkown>' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:54:07.952 INFO  o.o.i.r.i.RESTApplication[:174]- Stopped REST API

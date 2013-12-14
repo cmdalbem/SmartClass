@@ -22,6 +22,8 @@ DateTime		Date			"Date [%1$tA, %1$td.%1$tm.%1$tY]"	<calendar>	{ ntp="Europe/Pari
 
 Number Scene_General			"Scene"					<sofa>
 
+Number Luminosity "My lumi"
+
 /* Arduino items */
 
 String ArduinoController "ArduinoController" (All) {serial="/dev/ttyACM0"} 

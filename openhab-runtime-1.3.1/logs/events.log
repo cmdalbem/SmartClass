@@ -449,3 +449,85 @@
 2013-12-14 12:39:03 - Shutters received command OFF
 2013-12-14 12:39:03 - Shutter_Back state updated to 0
 2013-12-14 12:40:31 - Date state updated to 2013-12-14T12:40:31
+2013-12-14 13:37:37 - Date state updated to 2013-12-14T13:37:37
+2013-12-14 13:37:54 - Light_Front received command INCREASE
+2013-12-14 13:37:55 - Light_Front state updated to 5
+2013-12-14 13:38:00 - Light_Front received command INCREASE
+2013-12-14 13:38:00 - Light_Front state updated to 10
+2013-12-14 13:38:03 - Light_Front received command INCREASE
+2013-12-14 13:38:03 - Light_Front state updated to 15
+2013-12-14 13:38:06 - Light_Front received command INCREASE
+2013-12-14 13:38:06 - Light_Front state updated to 20
+2013-12-14 13:38:10 - Light_Front received command INCREASE
+2013-12-14 13:38:10 - Light_Front state updated to 25
+2013-12-14 13:38:12 - Light_Front received command INCREASE
+2013-12-14 13:38:12 - Light_Front state updated to 30
+2013-12-14 13:44:28 - Luminosity state updated to 0
+2013-12-14 13:44:32 - Luminosity state updated to 1
+2013-12-14 13:44:47 - Luminosity state updated to 2
+2013-12-14 13:45:02 - Luminosity state updated to 3
+2013-12-14 13:45:17 - Luminosity state updated to 4
+2013-12-14 13:45:32 - Luminosity state updated to 5
+2013-12-14 13:45:47 - Luminosity state updated to 6
+2013-12-14 13:46:02 - Luminosity state updated to 7
+2013-12-14 13:46:17 - Luminosity state updated to 8
+2013-12-14 13:46:21 - Luminosity state updated to 0
+2013-12-14 13:46:33 - Luminosity state updated to 1
+2013-12-14 13:46:47 - Luminosity state updated to 2
+2013-12-14 13:47:02 - Luminosity state updated to 3
+2013-12-14 13:47:17 - Luminosity state updated to 4
+2013-12-14 13:47:32 - Luminosity state updated to 5
+2013-12-14 13:47:47 - Luminosity state updated to 6
+2013-12-14 13:48:02 - Luminosity state updated to 7
+2013-12-14 13:48:17 - Luminosity state updated to 8
+2013-12-14 13:48:32 - Luminosity state updated to 9
+2013-12-14 13:48:47 - Luminosity state updated to 10
+2013-12-14 13:49:02 - Luminosity state updated to 11
+2013-12-14 13:49:13 - Luminosity state updated to 0
+2013-12-14 13:49:17 - Luminosity state updated to 1
+2013-12-14 13:49:32 - Luminosity state updated to 2
+2013-12-14 13:49:47 - Luminosity state updated to 3
+2013-12-14 13:50:02 - Luminosity state updated to 4
+2013-12-14 13:50:02 - Light_Back received command INCREASE
+2013-12-14 13:50:03 - Light_Back received command INCREASE
+2013-12-14 13:50:03 - Light_Back state updated to 5
+2013-12-14 13:50:03 - Light_Back state updated to 5
+2013-12-14 13:50:08 - Light_Front received command INCREASE
+2013-12-14 13:50:08 - Light_Front state updated to 5
+2013-12-14 13:50:11 - Light_Front received command INCREASE
+2013-12-14 13:50:11 - Light_Front state updated to 10
+2013-12-14 13:50:13 - Light_Back received command INCREASE
+2013-12-14 13:50:13 - Light_Back state updated to 10
+2013-12-14 13:50:17 - Luminosity state updated to 5
+2013-12-14 13:50:32 - Luminosity state updated to 6
+2013-12-14 13:50:44 - Light_Front received command INCREASE
+2013-12-14 13:50:45 - Light_Front state updated to 15
+2013-12-14 13:50:45 - Luminosity state updated to 0
+2013-12-14 13:50:47 - Light_Front received command INCREASE
+2013-12-14 13:50:47 - Light_Front state updated to 20
+2013-12-14 13:50:48 - Luminosity state updated to 1
+2013-12-14 13:50:49 - Light_Front received command DECREASE
+2013-12-14 13:50:49 - Light_Front state updated to 15
+2013-12-14 13:51:02 - Luminosity state updated to 2
+2013-12-14 13:51:17 - Luminosity state updated to 3
+2013-12-14 13:51:32 - Luminosity state updated to 4
+2013-12-14 13:51:48 - Luminosity state updated to 0
+2013-12-14 13:52:02 - Luminosity state updated to 1
+2013-12-14 13:52:17 - Luminosity state updated to 2
+2013-12-14 13:52:32 - Luminosity state updated to 3
+2013-12-14 13:52:35 - Luminosity state updated to 0
+2013-12-14 13:52:35 - Light_Front received command DECREASE
+2013-12-14 13:52:36 - Light_Front state updated to 10
+2013-12-14 13:52:37 - Date state updated to 2013-12-14T13:52:37
+2013-12-14 13:52:47 - Luminosity state updated to 1
+2013-12-14 13:53:02 - Luminosity state updated to 2
+2013-12-14 13:53:17 - Luminosity state updated to 3
+2013-12-14 13:53:20 - Luminosity state updated to 0
+2013-12-14 13:53:20 - Light_Front received command DECREASE
+2013-12-14 13:53:20 - Light_Front state updated to 5
+2013-12-14 13:53:32 - Luminosity state updated to 1
+2013-12-14 13:53:47 - Luminosity state updated to 2
+2013-12-14 13:54:02 - Luminosity state updated to 3
+2013-12-14 13:54:04 - Luminosity state updated to 0
+2013-12-14 13:54:04 - Light_Front received command DECREASE
+2013-12-14 13:54:04 - Light_Front state updated to 0
