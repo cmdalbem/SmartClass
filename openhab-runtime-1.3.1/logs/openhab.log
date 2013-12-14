@@ -2493,3 +2493,5 @@ java.lang.RuntimeException: The name '<unkown>' cannot be resolved to an item or
 	at java.lang.reflect.Method.invoke(Method.java:606)
 	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
 13:54:07.952 INFO  o.o.i.r.i.RESTApplication[:174]- Stopped REST API
+13:54:35.460 INFO  o.o.u.w.i.s.WebAppServlet[:110]- Stopped Classic UI
+13:54:35.606 INFO  o.o.c.internal.CoreActivator[:108]- openHAB runtime has been terminated.

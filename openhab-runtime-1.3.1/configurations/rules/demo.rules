@@ -33,7 +33,6 @@ rule "Crontest"
 	then
 		say(counter)
 		counter = counter + 1
-		say(Luminosity.state)
 		luminosity = Luminosity.state as DecimalType 
 		luminosity = luminosity + 1
 		postUpdate(Luminosity, luminosity)
@@ -44,9 +43,7 @@ rule "To much lights"
 	when
 		Item Luminosity received update
 	then
-		say("here")
-		if (Luminosity.state > 4) {
-			say("in the town")
+		if (Luminosity.state > 5) {
 			postUpdate(Luminosity, 0)
 			sendCommand(Light_Front, DECREASE)
 		}
