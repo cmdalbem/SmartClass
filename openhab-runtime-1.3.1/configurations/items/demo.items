@@ -21,3 +21,9 @@ Rollershutter Shutter_Back 		"Back"		(GF_Class, Shutters)
 DateTime		Date			"Date [%1$tA, %1$td.%1$tm.%1$tY]"	<calendar>	{ ntp="Europe/Paris:fr_FR" }
 
 Number Scene_General			"Scene"					<sofa>
+
+/* Arduino items */
+
+String ArduinoController "ArduinoController" (All) {serial="/dev/ttyACM0"} 
+
+
