@@ -3,6 +3,7 @@ import org.openhab.core.persistence.*
 import org.openhab.model.script.actions.*
 
 var Number counter = 1
+var Number luminosity = 0
 var Timer timer = null
 
 rule Startup
@@ -19,13 +20,34 @@ then
 	say("Good bye!")
 end
 
+rule "Initialise luminosity"
+when
+	System started
+then
+	postUpdate(Luminosity, 0)
+end
+
 rule "Crontest"
 	when 
 		Time cron "0/15 * * * * ?"
 	then
 		say(counter)
 		counter = counter + 1
+		luminosity = Luminosity.state as DecimalType 
+		luminosity = luminosity + 1
+		postUpdate(Luminosity, luminosity)
+		
 end	
+
+rule "To much lights"
+	when
+		Item Luminosity received update
+	then
+		if (Luminosity.state > 5) {
+			postUpdate(Luminosity, 0)
+			sendCommand(Light_Front, DECREASE)
+		}
+end
 
 /**
  * This is a demo rule which simulates a real dimmer by reacting to increase/decrease commands 
@@ -144,3 +166,19 @@ rule "Select Radio Station"
 			case 3 : playStream("http://edge.live.mp3.mdn.newmedia.nacamar.net/radioffh/livestream.mp3.m3u")
 		}
 end
+
+rule turnLightOn
+when Item Light_Arduino changed from ON to OFF
+
+then 
+	sendCommand(ArduinoController,"a")
+end
+
+rule turnLightOff
+when Item Light_Arduino changed from OFF to ON
+
+then
+	sendCommand(ArduinoController,"b")
+end	
+
+
