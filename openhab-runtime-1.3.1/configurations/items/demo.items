@@ -4,6 +4,7 @@ Group GF_Class	"SmartClass" 	<office> 	(All)
 
 /* active groups */
 Group:Switch:OR(ON, OFF) 		Lights 		"LEDs [(%d)]" 								(All)
+Group:Switch:OR(ON, OFF) 		Shutters 		"Volets [(%d)]" 								(All)
 Group:Contact:OR(OPEN, CLOSED) 	Windows 	"Open windows [(%d)]"				<contact>		(All)
 
 /* Lights */

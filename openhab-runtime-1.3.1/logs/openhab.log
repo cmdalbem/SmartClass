@@ -1775,3 +1775,445 @@ org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found
 12:30:08.890 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Back'
 12:30:09.046 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Back'
 12:30:09.227 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Back'
+12:31:00.019 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:31:21.115 WARN  o.o.u.w.i.servlet.CmdServlet[:120]- Received command 'TOGGLE' for item 'Shutters', but the item does not exist in the registry
+12:31:23.402 WARN  o.o.u.w.i.servlet.CmdServlet[:120]- Received command 'TOGGLE' for item 'Shutters', but the item does not exist in the registry
+12:31:24.005 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+12:31:25.364 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Back'
+12:31:25.973 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Back'
+12:31:26.216 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Back'
+12:31:26.284 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Back'
+12:31:26.371 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Back'
+12:31:59.075 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:32:00.905 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:32:03.403 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:32:03.404 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:03.404 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:09.027 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:32:09.028 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:09.028 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:09.983 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:32:09.984 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:09.985 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:10.740 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:32:10.740 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:10.741 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:11.467 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:32:11.468 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:11.468 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:12.204 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:32:12.205 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:12.206 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:12.995 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+12:32:14.467 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:32:14.468 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:14.469 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:15.327 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:32:17.083 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:32:18.046 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+12:32:19.763 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:32:19.968 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:32:20.475 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:32:20.733 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:32:20.763 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:32:20.787 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:32:44.761 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:32:44.761 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:44.761 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:46.404 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:32:46.405 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:46.405 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:48.953 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:32:50.913 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:32:53.911 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:32:55.309 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+12:32:56.056 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Back'
+12:32:56.839 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Back'
+12:32:57.319 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:32:57.320 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:32:57.320 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:35:12.631 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:35:22.649 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:35:22.650 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:35:22.651 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:35:25.619 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:35:26.397 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+12:35:44.335 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:35:51.702 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:35:51.702 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:35:51.703 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:35:54.285 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:35:55.891 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+12:35:56.043 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:36:00.758 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:36:00.758 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:36:00.758 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:36:07.753 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:36:09.284 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+12:36:10.511 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:11.173 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:11.401 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:12.447 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+12:36:13.033 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:13.910 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+12:36:42.827 WARN  o.o.u.w.i.servlet.CmdServlet[:120]- Received command 'TOGGLE' for item 'Shutters', but the item does not exist in the registry
+12:36:44.261 WARN  o.o.u.w.i.servlet.CmdServlet[:120]- Received command 'TOGGLE' for item 'Shutters', but the item does not exist in the registry
+12:36:45.363 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:46.154 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+12:36:46.630 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Back'
+12:36:47.011 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Back'
+12:36:47.534 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:47.844 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:48.156 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:48.467 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:48.779 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:49.090 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:49.400 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:49.709 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:50.022 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:50.329 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:50.640 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:50.953 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:51.264 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:51.576 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:51.888 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:52.199 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:52.511 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:52.822 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:53.134 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:53.448 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:53.761 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:54.073 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:54.384 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:54.694 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:55.005 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:55.504 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:55.831 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:56.139 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:56.451 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:56.761 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:57.073 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:57.384 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:57.696 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:58.010 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:58.322 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:58.633 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:58.945 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:59.256 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:59.568 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:36:59.880 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:00.191 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:00.502 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:00.813 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:01.124 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:01.436 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:01.747 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:02.058 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:02.372 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:02.683 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:02.994 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:03.307 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:03.617 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:03.929 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:04.241 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:04.553 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:04.864 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:05.176 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:05.488 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:05.800 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:06.112 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:06.424 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:06.735 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:07.047 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:07.360 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:07.672 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:07.985 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:08.296 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:08.609 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:08.921 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:09.233 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:09.545 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:09.855 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:10.167 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:10.479 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:10.790 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:11.102 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:11.412 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:11.723 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:12.034 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:12.345 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:12.652 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:12.962 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:13.274 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:13.585 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:13.897 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:14.208 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:14.520 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:14.831 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:15.143 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:15.464 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:15.775 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:16.087 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:16.399 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:16.710 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:17.022 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:17.333 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:17.644 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:17.956 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:18.268 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:18.578 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:18.890 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:19.201 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:19.514 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:19.826 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:20.139 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:20.451 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:20.762 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:21.074 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:21.386 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:21.698 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:22.009 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:22.320 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:22.633 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:22.944 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:23.256 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:23.568 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:23.878 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:24.189 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:24.500 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:24.811 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:25.123 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:25.435 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:25.747 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:26.059 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:26.370 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:26.683 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:26.995 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:27.306 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:27.616 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:27.928 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:28.239 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:28.550 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:28.861 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:29.173 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:29.484 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:29.795 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:30.106 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:30.419 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:30.730 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:31.041 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:31.352 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:31.664 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:31.976 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:32.288 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:32.599 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:32.910 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:33.222 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:33.533 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:33.845 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:34.156 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:34.467 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:34.779 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:35.090 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:35.402 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:35.714 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:36.026 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:36.338 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:36.649 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:36.961 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:37.273 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:37.585 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:37.897 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:38.209 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:38.520 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:38.831 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:39.142 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:39.454 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:39.765 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:40.077 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:40.387 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:40.698 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:41.010 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:41.321 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:41.633 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:41.944 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:42.256 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:42.567 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:42.879 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:43.192 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:43.503 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:43.815 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:43.903 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:37:43.904 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:37:43.904 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:37:49.471 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:37:51.110 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:52.495 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:37:52.496 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:37:52.496 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:37:52.788 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:37:52.789 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:37:52.789 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:37:53.354 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:53.985 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:54.727 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+12:37:55.274 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:37:55.821 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Back'
+12:37:56.219 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Back'
+12:37:59.187 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:37:59.188 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:37:59.188 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:37:59.236 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:37:59.236 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:37:59.237 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:37:59.394 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:37:59.394 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:37:59.394 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:38:41.170 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
