@@ -10,13 +10,10 @@ Group:Contact:OR(OPEN, CLOSED) 	Windows 	"Open windows [(%d)]"				<contact>		(Al
 /* Lights */
 Dimmer Light_Front 	"Front [%d %%]" 		(GF_Class, Lights)
 Dimmer Light_Back 	"Back [%d %%]" 		(GF_Class, Lights)
-<<<<<<< HEAD
+
 Color Color_Light_Front 	"Color Front"		(GF_Class)
 Color Color_Light_Back 	"Color Back" 		(GF_Class)
 
-=======
-Switch Light_Arduino "Arduino" (GF_Class) 
->>>>>>> ed71297a5085be2886e401de677fafc2b4666d6a
 /* Rollershutters */
 Switch Shutter_all (Shutters)
 
@@ -32,6 +29,7 @@ Number Luminosity "My lumi"
 
 /* Arduino items */
 
+Switch Light_Arduino "Arduino" (GF_Class) 
 String ArduinoController "ArduinoController" (All) {serial="/dev/ttyACM0"} 
 
 
