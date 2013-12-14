@@ -2217,3 +2217,219 @@ org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found
 12:37:59.394 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
 12:37:59.394 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
 12:38:41.170 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+12:42:51.208 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+12:44:54.453 INFO  o.o.i.r.i.RESTApplication[:174]- Stopped REST API
+12:45:04.441 INFO  o.o.u.w.i.s.WebAppServlet[:110]- Stopped Classic UI
+12:45:47.487 INFO  o.o.c.internal.CoreActivator[:92]- openHAB runtime has been started (v1.3.1).
+12:45:48.869 INFO  o.o.i.s.i.DiscoveryServiceImpl[:92]- mDNS service has been started
+12:45:49.477 INFO  o.o.i.r.i.RESTApplication[:158]- Started REST API at /rest
+12:45:57.854 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.sitemap'
+12:45:57.983 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.script'
+12:45:58.051 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'db4o.persist'
+12:45:58.065 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'rrd4j.persist'
+12:45:58.071 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'exec.persist'
+12:45:58.074 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'logging.persist'
+12:45:58.098 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.items'
+12:45:59.250 INFO  o.o.u.w.i.s.WebAppServlet[:99]- Started Classic UI at /openhab.app
+12:46:02.303 INFO  o.o.c.s.AbstractActiveService[:189]- NTP Refresh Service has been started
+12:46:02.315 INFO  o.o.c.s.AbstractActiveService[:189]- HTTP Refresh Service has been started
+12:46:08.193 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.rules'
+12:46:18.184 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:46:20.536 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+12:47:03.115 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+12:47:03.278 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+12:47:03.699 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:47:03.855 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:47:04.028 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:47:04.191 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:47:04.356 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:47:04.513 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:47:04.686 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:47:04.855 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:47:05.027 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:47:05.208 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:47:05.380 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:47:05.559 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:47:05.741 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:47:05.911 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:51:30.538 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+12:52:20.566 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:55:02.339 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:55:34.096 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:57:15.849 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:57:15.889 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name '<unkown>' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:57:18.678 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Back'
+12:57:47.606 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:58:09.346 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:58:31.095 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:58:52.829 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:58:56.191 WARN  o.o.c.i.e.EventPublisherImpl[:100]- given new state is NULL, couldn't post update for 'Shutter_Front'
+12:58:59.040 WARN  o.o.c.i.e.EventPublisherImpl[:100]- given new state is NULL, couldn't post update for 'Shutter_Front'
+12:59:01.365 WARN  o.o.c.i.e.EventPublisherImpl[:100]- given new state is NULL, couldn't post update for 'Shutter_Front'
+12:59:14.553 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:00:26.277 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:00:37.983 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+13:01:18.010 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:01:59.729 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:02:21.431 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+13:02:34.311 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'UPP' for item 'Shutter_Front'
+13:02:35.152 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'UPP' for item 'Shutter_Front'
+13:02:36.049 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'UPP' for item 'Shutter_Front'
+13:02:37.369 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'UPP' for item 'Shutter_Front'
+13:02:38.542 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'UPP' for item 'Shutter_Front'
+13:02:39.605 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'UPP' for item 'Shutter_Front'
+13:03:01.443 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+13:03:20.659 INFO  o.o.i.r.i.RESTApplication[:174]- Stopped REST API
+13:03:45.493 INFO  o.o.u.w.i.s.WebAppServlet[:110]- Stopped Classic UI
+13:03:50.475 INFO  o.o.c.internal.CoreActivator[:92]- openHAB runtime has been started (v1.3.1).
+13:03:51.857 INFO  o.o.i.s.i.DiscoveryServiceImpl[:92]- mDNS service has been started
+13:03:52.463 INFO  o.o.i.r.i.RESTApplication[:158]- Started REST API at /rest
+13:04:00.882 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.sitemap'
+13:04:01.016 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.script'
+13:04:01.088 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'db4o.persist'
+13:04:01.102 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'rrd4j.persist'
+13:04:01.108 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'exec.persist'
+13:04:01.112 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'logging.persist'
+13:04:01.136 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.items'
+13:04:01.972 INFO  o.o.u.w.i.s.WebAppServlet[:99]- Started Classic UI at /openhab.app
+13:04:05.391 INFO  o.o.c.s.AbstractActiveService[:189]- NTP Refresh Service has been started
+13:04:05.407 INFO  o.o.c.s.AbstractActiveService[:189]- HTTP Refresh Service has been started
+13:04:11.224 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.rules'
+13:04:16.127 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'UPP' for item 'Shutter_Front'
+13:04:18.750 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DOWNN' for item 'Shutter_Front'
+13:04:19.626 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'UPP' for item 'Shutter_Front'
+13:04:19.813 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'UPP' for item 'Shutter_Front'
+13:04:20.321 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DOWNN' for item 'Shutter_Front'
+13:04:20.757 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DOWNN' for item 'Shutter_Front'
+13:04:20.910 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DOWNN' for item 'Shutter_Front'
+13:04:43.527 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+13:08:53.579 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:09:45.370 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:09:45.666 ERROR o.o.c.s.ScriptExecutionThread[:70]- Error during the execution of rule 'Dimmed Shutter Front': The name '<unkown>' cannot be resolved to an item or type.
+13:09:46.506 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name '<unkown>' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:09:52.750 WARN  o.o.c.i.e.EventPublisherImpl[:100]- given new state is NULL, couldn't post update for 'Shutter_Front'
+13:10:48.161 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+13:11:08.201 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:11:29.984 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:11:35.434 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'UPP' for item 'Shutter_Front'
+13:11:37.395 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DOWNN' for item 'Shutter_Front'
+13:13:11.735 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+13:14:11.752 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+13:14:20.487 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+13:14:21.528 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+13:14:26.889 WARN  o.o.c.i.e.EventPublisherImpl[:100]- given new state is NULL, couldn't post update for 'Shutter_Front'
+13:14:32.768 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+13:14:33.914 WARN  o.o.c.i.e.EventPublisherImpl[:100]- given new state is NULL, couldn't post update for 'Shutter_Front'
+13:14:34.589 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+13:14:34.939 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+13:14:35.629 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+13:14:37.683 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'UPP' for item 'Shutter_Front'
+13:14:41.284 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DOWNN' for item 'Shutter_Front'
+13:16:54.510 WARN  o.o.c.i.e.EventPublisherImpl[:100]- given new state is NULL, couldn't post update for 'Shutter_Front'
+13:16:56.441 WARN  o.o.c.i.e.EventPublisherImpl[:100]- given new state is NULL, couldn't post update for 'Shutter_Front'
+13:16:57.872 WARN  o.o.c.i.e.EventPublisherImpl[:100]- given new state is NULL, couldn't post update for 'Shutter_Front'
+13:17:11.800 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:17:33.532 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:17:33.973 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+13:17:38.997 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+13:17:39.725 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+13:17:41.640 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'UPP' for item 'Shutter_Front'
+13:21:37.649 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+13:29:45.330 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:29:46.258 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name '<unkown>' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:31:27.930 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:31:49.650 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:32:01.366 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:32:43.068 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+13:32:53.075 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+13:34:13.103 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:34:44.830 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:35:16.542 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:36:08.267 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:36:14.909 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DOWN' for item 'Shutters'
+13:36:16.423 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DOWN' for item 'Shutters'
+13:36:17.179 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DOWN' for item 'Shutters'
+13:36:29.966 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+13:36:29.974 WARN  o.o.m.i.i.GenericItemProvider[:212]- State 'UP' is not valid for group item 'Shutters' with base type 'Switch'
+13:36:29.975 ERROR o.o.m.i.i.GenericItemProvider[:235]- Group function 'OR' requires two arguments. Using Equality instead.
+13:36:29.975 ERROR o.o.m.i.i.GenericItemProvider[:242]- Group function 'NOT AND' requires two arguments. Using Equality instead.
+13:36:46.116 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DOWN' for item 'Shutters'
+13:36:46.753 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DOWN' for item 'Shutters'
+13:37:11.345 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DOWN' for item 'Shutters'
+13:39:02.358 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DOWN' for item 'Shutters'
+13:39:03.310 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DOWN' for item 'Shutters'
+13:41:40.016 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+13:42:00.025 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+13:42:30.036 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+13:42:30.045 WARN  o.o.m.i.i.GenericItemProvider[:212]- State 'UP' is not valid for group item 'Shutters' with base type 'Switch'
+13:42:30.045 ERROR o.o.m.i.i.GenericItemProvider[:235]- Group function 'OR' requires two arguments. Using Equality instead.
+13:42:30.045 ERROR o.o.m.i.i.GenericItemProvider[:242]- Group function 'NOT AND' requires two arguments. Using Equality instead.
+13:43:00.057 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+13:43:00.064 WARN  o.o.m.i.i.GenericItemProvider[:212]- State 'UP' is not valid for group item 'Shutters' with base type 'Switch'
+13:43:00.064 ERROR o.o.m.i.i.GenericItemProvider[:235]- Group function 'OR' requires two arguments. Using Equality instead.
+13:43:00.064 ERROR o.o.m.i.i.GenericItemProvider[:242]- Group function 'NOT AND' requires two arguments. Using Equality instead.
+13:43:30.071 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+13:43:30.080 WARN  o.o.m.i.i.GenericItemProvider[:212]- State 'UP' is not valid for group item 'Shutters' with base type 'Switch'
+13:43:30.081 ERROR o.o.m.i.i.GenericItemProvider[:235]- Group function 'OR' requires two arguments. Using Equality instead.
+13:43:30.081 ERROR o.o.m.i.i.GenericItemProvider[:242]- Group function 'NOT AND' requires two arguments. Using Equality instead.
+13:43:40.090 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+13:43:40.099 WARN  o.o.m.i.i.GenericItemProvider[:212]- State 'UP' is not valid for group item 'Shutters' with base type 'Switch'
+13:43:40.100 ERROR o.o.m.i.i.GenericItemProvider[:235]- Group function 'OR' requires two arguments. Using Equality instead.
+13:43:40.100 ERROR o.o.m.i.i.GenericItemProvider[:242]- Group function 'NOT AND' requires two arguments. Using Equality instead.
+13:44:10.121 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:44:21.846 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:46:33.585 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:46:45.316 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:46:45.757 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name '<unkown>' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:53:07.466 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:53:19.177 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:54:00.876 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:54:00.898 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Crontest
+java.lang.RuntimeException: The name '<unkown>' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+13:54:52.592 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:55:14.295 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:55:36.003 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:56:17.716 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+13:58:39.431 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+13:58:39.436 WARN  o.o.m.i.i.GenericItemProvider[:212]- State 'UP' is not valid for group item 'Shutters' with base type 'Switch'
+13:58:39.436 ERROR o.o.m.i.i.GenericItemProvider[:235]- Group function 'OR' requires two arguments. Using Equality instead.
+13:58:39.436 ERROR o.o.m.i.i.GenericItemProvider[:242]- Group function 'NOT AND' requires two arguments. Using Equality instead.
+14:04:39.492 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+14:05:01.204 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+14:05:32.900 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+14:06:41.236 INFO  o.o.i.r.i.RESTApplication[:174]- Stopped REST API
+14:07:06.216 INFO  o.o.u.w.i.s.WebAppServlet[:110]- Stopped Classic UI

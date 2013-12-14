@@ -14,9 +14,4 @@ sitemap demo label="Main Menu"
 		Slider item=Light_Front
 		Slider item=Light_Back
 	}
-	Frame label="Volets" {
-		Switch item=Shutters mappings=[OFF="All Off"]
-		Slider item=Shutter_Front
-		Slider item=Shutter_Back
-	}
 }

@@ -4,12 +4,14 @@ Group GF_Class	"SmartClass" 	<office> 	(All)
 
 /* active groups */
 Group:Switch:OR(ON, OFF) 		Lights 		"LEDs [(%d)]" 								(All)
-Group:Switch:OR(ON, OFF) 		Shutters 		"Volets [(%d)]" 								(All)
+Group:Switch:OR(UP, DOWN) 		Shutters 		"Volets [(%d)]" 								(All)
 Group:Contact:OR(OPEN, CLOSED) 	Windows 	"Open windows [(%d)]"				<contact>		(All)
 
 /* Lights */
 Dimmer Light_Front 	"Front [%d %%]" 		(GF_Class, Lights)
 Dimmer Light_Back 	"Back [%d %%]" 		(GF_Class, Lights)
+Color Color_Light_Front 	"Color Front"		(GF_Class)
+Color Color_Light_Back 	"Color Back" 		(GF_Class)
 
 /* Rollershutters */
 Switch Shutter_all (Shutters)

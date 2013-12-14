@@ -49,10 +49,10 @@ rule "Dimmed Light Back"
 	when
 		Item Light_Back received command
 	then
-		
+		say("Exterminaaate!")
 		var Number percent = 0
-		if(Light_Back.state instanceof DecimalType) percent = Light_Back.state as DecimalType 
-			
+		if(Light_Back.state instanceof DecimalType) percent = Light_Back.state as DecimalType
+		
 		if(receivedCommand==INCREASE) percent = percent + 5
 		if(receivedCommand==DECREASE) percent = percent - 5
 
@@ -60,20 +60,73 @@ rule "Dimmed Light Back"
 		if(percent>100) percent = 100
 		postUpdate(Light_Back, percent);
 end
-rule "Dimmed Shutter Back"
-	when
-		Item Shutter_Back received command
-	then
-		
-		var Number percent = 0
-		if(Shutter_Back.state instanceof DecimalType) percent = Shutter_Back.state as DecimalType 
-			
-		if(receivedCommand==INCREASE) percent = percent + 5
-		if(receivedCommand==DECREASE) percent = percent - 5
 
-		if(percent<0)   percent = 0
-		if(percent>100) percent = 100
-		postUpdate(Shutter_Back, percent);
+rule "Color Light Back"
+	when
+		Item Color_Light_Back received command
+	then
+		var HSBType hsbValue = Color_Light_Back.state as HSBType
+
+        var Number redValue   = hsbValue.red.intValue
+        var Number greenValue = hsbValue.green.intValue
+        var Number blueValue  = hsbValue.blue.intValue
+        
+        say(redValue)
+        say(greenValue)
+        say(blueValue)
+        /*sendCommand( LedR, redValue )
+        sendCommand( LedG, greenValue )
+        sendCommand( LedB, blueValue )*/
+end
+rule "Color Light Back"
+	when
+		Item Color_Light_Front received command
+	then
+		var HSBType hsbValue = Color_Light_Front.state as HSBType
+
+        var Number redValue   = hsbValue.red.intValue
+        var Number greenValue = hsbValue.green.intValue
+        var Number blueValue  = hsbValue.blue.intValue
+        
+        say(redValue)
+        say(greenValue)
+        say(blueValue)
+        /*sendCommand( LedR, redValue )
+        sendCommand( LedG, greenValue )
+        sendCommand( LedB, blueValue )*/
+end
+
+rule "Dimmed Shutter Front Up"
+	when
+		Item Shutter_Front received command UP
+	then
+		say("Front Up")
+		// Todo : send a command to the motor
+		
+end
+rule "Dimmed Shutter Front Down"
+	when
+		Item Shutter_Front received command DOWN
+	then
+		say("Front Down")
+		// Todo : send a command to the motor
+		
+end
+rule "Dimmed Shutter Back Up"
+	when
+		Item Shutter_Back received command UP
+	then
+		say("Back Up")
+		// Todo : send a command to the motor
+		
+end
+rule "Dimmed Shutter Back Down"
+	when
+		Item Shutter_Back received command DOWN
+	then
+		say("Back Down")
+		// Todo : send a command to the motor
+		
 end
 
 /**

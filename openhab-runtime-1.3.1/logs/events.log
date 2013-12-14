@@ -449,3 +449,387 @@
 2013-12-14 12:39:03 - Shutters received command OFF
 2013-12-14 12:39:03 - Shutter_Back state updated to 0
 2013-12-14 12:40:31 - Date state updated to 2013-12-14T12:40:31
+2013-12-14 12:46:02 - Date state updated to 2013-12-14T12:46:02
+2013-12-14 12:46:23 - Light_Back received command DECREASE
+2013-12-14 12:46:23 - Light_Back state updated to 0
+2013-12-14 12:46:24 - Light_Back received command INCREASE
+2013-12-14 12:46:24 - Light_Back state updated to 5
+2013-12-14 12:46:25 - Light_Back received command INCREASE
+2013-12-14 12:46:25 - Light_Back state updated to 10
+2013-12-14 12:46:26 - Shutter_all received command OFF
+2013-12-14 12:46:26 - Shutter_Front received command OFF
+2013-12-14 12:46:26 - Shutter_Back received command OFF
+2013-12-14 12:46:26 - Shutters received command OFF
+2013-12-14 12:46:26 - Shutter_Back state updated to 0
+2013-12-14 12:46:28 - Shutter_all received command OFF
+2013-12-14 12:46:28 - Shutter_Front received command OFF
+2013-12-14 12:46:28 - Shutter_Back received command OFF
+2013-12-14 12:46:28 - Shutters received command OFF
+2013-12-14 12:46:28 - Shutter_Back state updated to 0
+2013-12-14 12:46:45 - Scene_General received command 1
+2013-12-14 12:46:46 - Scene_General received command 2
+2013-12-14 12:46:46 - Scene_General received command 3
+2013-12-14 12:46:47 - Scene_General received command 1
+2013-12-14 12:46:57 - Light_Front received command OFF
+2013-12-14 12:46:57 - Light_Front state updated to 0
+2013-12-14 12:46:57 - Light_Front received command OFF
+2013-12-14 12:46:57 - Light_Front state updated to 0
+2013-12-14 12:46:58 - Light_Front received command ON
+2013-12-14 12:46:58 - Light_Front state updated to 100
+2013-12-14 12:46:58 - Light_Front received command ON
+2013-12-14 12:46:58 - Light_Front state updated to 100
+2013-12-14 12:47:00 - Light_Front received command OFF
+2013-12-14 12:47:00 - Light_Front state updated to 0
+2013-12-14 12:51:41 - Shutter_Front received command UP
+2013-12-14 12:51:43 - Shutter_Front received command DOWN
+2013-12-14 12:51:44 - Shutter_Front received command STOP
+2013-12-14 12:52:23 - Shutter_Front received command UP
+2013-12-14 12:52:25 - Shutter_Front received command DOWN
+2013-12-14 12:52:28 - Shutter_Front received command UP
+2013-12-14 12:52:29 - Shutter_Front received command DOWN
+2013-12-14 12:52:32 - Shutter_Front received command UP
+2013-12-14 12:52:32 - Shutter_Front received command DOWN
+2013-12-14 12:52:34 - Shutter_Front received command UP
+2013-12-14 12:52:35 - Shutter_Front received command STOP
+2013-12-14 12:53:05 - Shutter_Front received command UP
+2013-12-14 12:53:06 - Shutter_Front received command DOWN
+2013-12-14 12:55:07 - Shutter_Front received command DOWN
+2013-12-14 12:55:09 - Shutter_Front received command UP
+2013-12-14 12:55:11 - Shutter_Front received command DOWN
+2013-12-14 12:56:03 - Shutter_Front received command UP
+2013-12-14 12:56:04 - Shutter_all received command OFF
+2013-12-14 12:56:04 - Shutter_Front received command OFF
+2013-12-14 12:56:04 - Shutter_Back received command OFF
+2013-12-14 12:56:04 - Shutters received command OFF
+2013-12-14 12:56:04 - Shutter_Back state updated to 0
+2013-12-14 12:56:05 - Shutter_Front received command STOP
+2013-12-14 12:56:07 - Shutter_Front received command UP
+2013-12-14 12:56:08 - Shutter_Front received command DOWN
+2013-12-14 12:56:09 - Shutter_Front received command UP
+2013-12-14 12:56:09 - Shutter_Front received command DOWN
+2013-12-14 12:56:10 - Shutter_Front received command UP
+2013-12-14 12:56:11 - Shutter_Front received command DOWN
+2013-12-14 12:56:12 - Shutter_Front received command STOP
+2013-12-14 12:56:14 - Shutter_Front received command STOP
+2013-12-14 12:56:15 - Shutter_Front received command STOP
+2013-12-14 12:56:16 - Shutter_Front received command STOP
+2013-12-14 12:56:16 - Shutter_Front received command STOP
+2013-12-14 12:56:17 - Shutter_Front received command STOP
+2013-12-14 12:56:18 - Shutter_Front received command STOP
+2013-12-14 12:56:23 - Shutter_Front received command DOWN
+2013-12-14 12:56:24 - Shutter_Front received command UP
+2013-12-14 12:56:25 - Shutter_Front received command DOWN
+2013-12-14 12:56:26 - Shutter_Front received command UP
+2013-12-14 12:56:26 - Shutter_Front received command DOWN
+2013-12-14 12:56:27 - Shutter_Front received command UP
+2013-12-14 12:56:28 - Shutter_Front received command DOWN
+2013-12-14 12:56:29 - Shutter_Front received command UP
+2013-12-14 12:56:30 - Shutter_Front received command DOWN
+2013-12-14 12:56:31 - Shutter_Front received command UP
+2013-12-14 12:56:32 - Shutter_Front received command DOWN
+2013-12-14 12:57:20 - Shutter_Front received command DOWN
+2013-12-14 12:57:21 - Shutter_Front received command UP
+2013-12-14 12:57:23 - Shutter_Front received command DOWN
+2013-12-14 12:57:44 - Shutter_Front received command DOWN
+2013-12-14 12:57:46 - Shutter_Front received command UP
+2013-12-14 12:57:47 - Shutter_Front received command DOWN
+2013-12-14 12:57:47 - Shutter_Front state updated to 100
+2013-12-14 12:57:50 - Shutter_Front received command DOWN
+2013-12-14 12:57:50 - Shutter_Front state updated to 100
+2013-12-14 12:57:51 - Shutter_Front received command UP
+2013-12-14 12:57:51 - Shutter_Front state updated to 0
+2013-12-14 12:57:53 - Shutter_Front received command DOWN
+2013-12-14 12:57:53 - Shutter_Front state updated to 100
+2013-12-14 12:58:05 - Shutter_Front received command UP
+2013-12-14 12:58:05 - Shutter_Front state updated to 0
+2013-12-14 12:58:07 - Shutter_Front received command DOWN
+2013-12-14 12:58:07 - Shutter_Front state updated to 100
+2013-12-14 12:58:09 - Shutter_Front received command UP
+2013-12-14 12:58:09 - Shutter_Front state updated to 0
+2013-12-14 12:58:11 - Shutter_Front received command DOWN
+2013-12-14 12:58:12 - Shutter_Front state updated to 100
+2013-12-14 12:58:13 - Shutter_Front received command UP
+2013-12-14 12:58:14 - Shutter_Front state updated to 0
+2013-12-14 12:58:16 - Shutter_Front received command DOWN
+2013-12-14 12:58:17 - Shutter_Front state updated to 100
+2013-12-14 12:58:18 - Shutter_Front received command UP
+2013-12-14 12:58:19 - Shutter_Front state updated to 0
+2013-12-14 12:58:20 - Shutter_Front received command DOWN
+2013-12-14 12:58:21 - Shutter_Front state updated to 100
+2013-12-14 12:58:35 - Shutter_Front received command DOWN
+2013-12-14 12:58:36 - Shutter_Front state updated to 95
+2013-12-14 12:58:37 - Shutter_Front received command UP
+2013-12-14 12:58:38 - Shutter_Front state updated to 5
+2013-12-14 12:58:39 - Shutter_Front received command DOWN
+2013-12-14 12:58:41 - Shutter_Front state updated to 95
+2013-12-14 12:58:54 - Shutter_Front received command DOWN
+2013-12-14 12:58:57 - Shutter_Front received command UP
+2013-12-14 12:58:59 - Shutter_Front received command DOWN
+2013-12-14 13:00:41 - Shutter_Front received command UP
+2013-12-14 13:00:42 - Shutter_Front state updated to 5
+2013-12-14 13:00:43 - Shutter_Front received command UP
+2013-12-14 13:00:43 - Shutter_Front received command UP
+2013-12-14 13:00:44 - Shutter_Front state updated to 5
+2013-12-14 13:00:44 - Shutter_Front received command UP
+2013-12-14 13:00:44 - Shutter_Front state updated to 5
+2013-12-14 13:00:45 - Shutter_Front received command UP
+2013-12-14 13:00:45 - Shutter_Front state updated to 5
+2013-12-14 13:00:46 - Shutter_Front received command UP
+2013-12-14 13:00:47 - Shutter_Front received command UP
+2013-12-14 13:00:47 - Shutter_Front state updated to 5
+2013-12-14 13:00:47 - Shutter_Front received command UP
+2013-12-14 13:00:48 - Shutter_Front state updated to 5
+2013-12-14 13:00:49 - Shutter_Front state updated to 5
+2013-12-14 13:00:49 - Shutter_Front state updated to 5
+2013-12-14 13:01:02 - Date state updated to 2013-12-14T13:01:02
+2013-12-14 13:01:04 - Shutter_Front received command UP
+2013-12-14 13:01:05 - Shutter_Front state updated to 5
+2013-12-14 13:01:24 - Shutter_Front received command UP
+2013-12-14 13:01:25 - Shutter_Front state updated to 5
+2013-12-14 13:01:26 - Shutter_Front received command UP
+2013-12-14 13:01:27 - Shutter_Front received command UP
+2013-12-14 13:01:27 - Shutter_Front state updated to 5
+2013-12-14 13:01:27 - Shutter_Front state updated to 10
+2013-12-14 13:01:28 - Shutter_Front received command UP
+2013-12-14 13:01:29 - Shutter_Front state updated to 5
+2013-12-14 13:01:30 - Shutter_Front received command UP
+2013-12-14 13:01:30 - Shutter_Front received command UP
+2013-12-14 13:01:31 - Shutter_Front received command UP
+2013-12-14 13:01:31 - Shutter_Front state updated to 5
+2013-12-14 13:01:32 - Shutter_Front received command UP
+2013-12-14 13:01:32 - Shutter_Front state updated to 5
+2013-12-14 13:01:33 - Shutter_Front state updated to 10
+2013-12-14 13:01:34 - Shutter_Front state updated to 5
+2013-12-14 13:01:41 - Shutter_Front received command UP
+2013-12-14 13:01:42 - Shutter_Front state updated to 5
+2013-12-14 13:01:42 - Shutter_Front received command UP
+2013-12-14 13:01:42 - Shutter_Front state updated to 5
+2013-12-14 13:02:04 - Shutter_Front received command UP
+2013-12-14 13:02:06 - Shutter_Front state updated to 5
+2013-12-14 13:02:07 - Shutter_Front received command UP
+2013-12-14 13:02:09 - Shutter_Front state updated to 5
+2013-12-14 13:04:05 - Date state updated to 2013-12-14T13:04:05
+2013-12-14 13:09:18 - Shutter_Front received command DOWN
+2013-12-14 13:09:22 - Shutter_Front state updated to 95
+2013-12-14 13:09:42 - Shutter_Front received command DOWN
+2013-12-14 13:09:49 - Shutter_Front received command DOWN
+2013-12-14 13:14:23 - Shutter_Front received command UP
+2013-12-14 13:14:28 - Shutter_Front received command DOWN
+2013-12-14 13:16:31 - Light_Front received command INCREASE
+2013-12-14 13:16:31 - Light_Front state updated to 5
+2013-12-14 13:16:31 - Light_Front received command INCREASE
+2013-12-14 13:16:31 - Light_Front state updated to 10
+2013-12-14 13:16:31 - Light_Front received command INCREASE
+2013-12-14 13:16:31 - Light_Front state updated to 15
+2013-12-14 13:16:32 - Light_Front received command INCREASE
+2013-12-14 13:16:32 - Light_Front state updated to 20
+2013-12-14 13:16:32 - Light_Front received command INCREASE
+2013-12-14 13:16:32 - Light_Front state updated to 25
+2013-12-14 13:16:32 - Light_Front received command INCREASE
+2013-12-14 13:16:32 - Light_Front state updated to 30
+2013-12-14 13:16:33 - Light_Front received command INCREASE
+2013-12-14 13:16:33 - Light_Front state updated to 35
+2013-12-14 13:16:33 - Light_Front received command INCREASE
+2013-12-14 13:16:33 - Light_Front state updated to 40
+2013-12-14 13:16:33 - Light_Front received command INCREASE
+2013-12-14 13:16:33 - Light_Front state updated to 45
+2013-12-14 13:16:34 - Light_Front received command INCREASE
+2013-12-14 13:16:34 - Light_Front state updated to 50
+2013-12-14 13:16:34 - Light_Front received command INCREASE
+2013-12-14 13:16:34 - Light_Front state updated to 55
+2013-12-14 13:16:34 - Light_Front received command INCREASE
+2013-12-14 13:16:34 - Light_Front state updated to 60
+2013-12-14 13:16:34 - Light_Front received command INCREASE
+2013-12-14 13:16:34 - Light_Front state updated to 65
+2013-12-14 13:16:35 - Light_Front received command DECREASE
+2013-12-14 13:16:35 - Light_Front state updated to 60
+2013-12-14 13:16:36 - Light_Front received command INCREASE
+2013-12-14 13:16:36 - Light_Front state updated to 65
+2013-12-14 13:16:36 - Light_Front received command INCREASE
+2013-12-14 13:16:36 - Light_Front state updated to 70
+2013-12-14 13:16:37 - Light_Front received command INCREASE
+2013-12-14 13:16:37 - Light_Front state updated to 75
+2013-12-14 13:16:38 - Light_Back received command INCREASE
+2013-12-14 13:16:38 - Light_Back state updated to 5
+2013-12-14 13:16:39 - Light_Back received command INCREASE
+2013-12-14 13:16:39 - Light_Back state updated to 10
+2013-12-14 13:16:39 - Light_Back received command INCREASE
+2013-12-14 13:16:39 - Light_Back state updated to 15
+2013-12-14 13:16:39 - Light_Back received command INCREASE
+2013-12-14 13:16:39 - Light_Back state updated to 20
+2013-12-14 13:16:40 - Light_Back received command INCREASE
+2013-12-14 13:16:40 - Light_Back state updated to 25
+2013-12-14 13:16:40 - Light_Back received command INCREASE
+2013-12-14 13:16:40 - Light_Back state updated to 30
+2013-12-14 13:16:41 - Light_Back received command DECREASE
+2013-12-14 13:16:41 - Light_Back state updated to 25
+2013-12-14 13:16:42 - Light_Back received command DECREASE
+2013-12-14 13:16:42 - Light_Back state updated to 20
+2013-12-14 13:16:42 - Light_Back received command DECREASE
+2013-12-14 13:16:42 - Light_Back state updated to 15
+2013-12-14 13:16:44 - Shutter_Front received command DOWN
+2013-12-14 13:16:45 - Shutter_Front received command UP
+2013-12-14 13:16:47 - Shutter_Front received command DOWN
+2013-12-14 13:17:35 - Shutter_Front received command DOWN
+2013-12-14 13:17:37 - Shutter_Front received command UP
+2013-12-14 13:19:05 - Date state updated to 2013-12-14T13:19:05
+2013-12-14 13:32:58 - Shutter_Front received command DOWN
+2013-12-14 13:32:59 - Shutter_Front received command UP
+2013-12-14 13:33:01 - Shutter_Back received command DOWN
+2013-12-14 13:33:03 - Shutter_Back received command UP
+2013-12-14 13:33:04 - Shutter_Back received command STOP
+2013-12-14 13:33:06 - Shutter_Back received command DOWN
+2013-12-14 13:33:11 - Shutter_Front received command DOWN
+2013-12-14 13:33:12 - Shutter_Front received command UP
+2013-12-14 13:33:14 - Shutter_Front received command DOWN
+2013-12-14 13:33:15 - Shutter_Back received command DOWN
+2013-12-14 13:33:17 - Shutter_Back received command UP
+2013-12-14 13:33:18 - Shutter_Back received command DOWN
+2013-12-14 13:33:20 - Shutter_Back received command UP
+2013-12-14 13:33:20 - Shutter_Back received command DOWN
+2013-12-14 13:34:05 - Date state updated to 2013-12-14T13:34:05
+2013-12-14 13:34:48 - Shutter_Front received command DOWN
+2013-12-14 13:34:49 - Shutter_Front received command DOWN
+2013-12-14 13:34:51 - Shutter_Front received command UP
+2013-12-14 13:34:53 - Shutter_Front received command UP
+2013-12-14 13:35:25 - Shutter_Front received command DOWN
+2013-12-14 13:35:27 - Shutter_Front received command DOWN
+2013-12-14 13:35:28 - Shutter_Front received command UP
+2013-12-14 13:35:32 - Shutter_Front received command DOWN
+2013-12-14 13:35:34 - Shutter_Front received command DOWN
+2013-12-14 13:35:35 - Shutter_Front received command UP
+2013-12-14 13:35:40 - Shutter_Front received command UP
+2013-12-14 13:36:49 - Shutter_Front received command DOWN
+2013-12-14 13:36:51 - Shutter_Front received command UP
+2013-12-14 13:36:52 - Shutter_Back received command DOWN
+2013-12-14 13:36:54 - Shutter_Back received command DOWN
+2013-12-14 13:36:55 - Shutter_Back received command UP
+2013-12-14 13:36:56 - Shutter_Back received command UP
+2013-12-14 13:36:57 - Shutter_Back received command DOWN
+2013-12-14 13:36:58 - Shutter_Front received command DOWN
+2013-12-14 13:37:05 - Shutter_Front received command STOP
+2013-12-14 13:37:07 - Shutter_Front received command UP
+2013-12-14 13:37:07 - Shutter_Front received command UP
+2013-12-14 13:37:09 - Shutter_Front received command DOWN
+2013-12-14 13:37:12 - Light_Back received command DECREASE
+2013-12-14 13:37:12 - Light_Back state updated to 0
+2013-12-14 13:37:13 - Light_Front received command DECREASE
+2013-12-14 13:37:13 - Light_Front state updated to 0
+2013-12-14 13:37:14 - Light_Front received command DECREASE
+2013-12-14 13:37:14 - Light_Front state updated to 0
+2013-12-14 13:37:15 - Light_Front received command INCREASE
+2013-12-14 13:37:15 - Light_Front state updated to 5
+2013-12-14 13:37:15 - Light_Front received command INCREASE
+2013-12-14 13:37:15 - Light_Front state updated to 10
+2013-12-14 13:37:16 - Light_Front received command INCREASE
+2013-12-14 13:37:16 - Light_Front state updated to 15
+2013-12-14 13:37:16 - Light_Front received command INCREASE
+2013-12-14 13:37:16 - Light_Front state updated to 20
+2013-12-14 13:37:17 - Light_Front received command OFF
+2013-12-14 13:37:17 - Light_Back received command OFF
+2013-12-14 13:37:17 - Lights received command OFF
+2013-12-14 13:37:17 - Light_Front state updated to 0
+2013-12-14 13:37:17 - Light_Back state updated to 0
+2013-12-14 13:37:19 - Scene_General received command 1
+2013-12-14 13:37:19 - Scene_General received command 2
+2013-12-14 13:37:20 - Scene_General received command 3
+2013-12-14 13:37:25 - Shutter_Front received command UP
+2013-12-14 13:37:26 - Shutter_Back received command UP
+2013-12-14 13:37:32 - Shutter_Back received command UP
+2013-12-14 13:37:34 - Shutter_Back received command UP
+2013-12-14 13:37:35 - Shutter_Back received command UP
+2013-12-14 13:37:35 - Shutter_Back received command UP
+2013-12-14 13:37:35 - Shutter_Back received command UP
+2013-12-14 13:37:35 - Shutter_Back received command UP
+2013-12-14 13:37:35 - Shutter_Back received command UP
+2013-12-14 13:37:36 - Shutter_Back received command DOWN
+2013-12-14 13:37:38 - Shutter_Back received command UP
+2013-12-14 13:37:46 - Shutter_Front received command DOWN
+2013-12-14 13:37:52 - Shutter_Back received command UP
+2013-12-14 13:37:53 - Shutter_Back received command STOP
+2013-12-14 13:37:53 - Shutter_Back received command UP
+2013-12-14 13:37:54 - Shutter_Back received command UP
+2013-12-14 13:37:54 - Shutter_Back received command UP
+2013-12-14 13:37:54 - Shutter_Back received command UP
+2013-12-14 13:37:54 - Shutter_Back received command UP
+2013-12-14 13:37:55 - Shutter_Back received command UP
+2013-12-14 13:37:55 - Shutter_Back received command UP
+2013-12-14 13:37:55 - Shutter_Back received command UP
+2013-12-14 13:37:55 - Shutter_Back received command UP
+2013-12-14 13:37:55 - Shutter_Back received command UP
+2013-12-14 13:37:56 - Shutter_Back received command UP
+2013-12-14 13:37:56 - Shutter_Back received command UP
+2013-12-14 13:37:56 - Shutter_Back received command UP
+2013-12-14 13:37:56 - Shutter_Back received command UP
+2013-12-14 13:37:56 - Shutter_Back received command UP
+2013-12-14 13:37:57 - Shutter_Back received command UP
+2013-12-14 13:37:57 - Shutter_Back received command UP
+2013-12-14 13:37:57 - Shutter_Back received command UP
+2013-12-14 13:37:57 - Shutter_Back received command UP
+2013-12-14 13:37:57 - Shutter_Back received command UP
+2013-12-14 13:37:58 - Shutter_Back received command UP
+2013-12-14 13:37:58 - Shutter_Back received command UP
+2013-12-14 13:37:58 - Shutter_Back received command UP
+2013-12-14 13:38:51 - Shutter_Front received command DOWN
+2013-12-14 13:38:52 - Shutter_Front received command UP
+2013-12-14 13:38:55 - Shutter_Front received command DOWN
+2013-12-14 13:38:56 - Shutter_Front received command UP
+2013-12-14 13:38:58 - Shutter_Front received command DOWN
+2013-12-14 13:42:37 - Color_Light_Front received command 113.87096774193549,72.94117647058823,100
+2013-12-14 13:44:27 - Color_Light_Back received command 13.872832369942197,67.84313725490196,100
+2013-12-14 13:44:38 - Light_Back state updated to 0
+2013-12-14 13:44:45 - Color_Light_Back received command 114.05172413793105,90.98039215686275,100
+2013-12-14 13:44:55 - Light_Back state updated to 0
+2013-12-14 13:45:04 - Color_Light_Back received command 3.0252100840336134,93.33333333333333,100
+2013-12-14 13:45:14 - Light_Back state updated to 0
+2013-12-14 13:45:17 - Color_Light_Back received command 335.05263157894734,74.50980392156863,100
+2013-12-14 13:45:27 - Light_Back state updated to 0
+2013-12-14 13:46:52 - Color_Light_Back received command 213.19148936170214,55.294117647058826,100
+2013-12-14 13:47:13 - Light_Back state updated to 0
+2013-12-14 13:49:05 - Date state updated to 2013-12-14T13:49:05
+2013-12-14 13:55:37 - Color_Light_Back received command 15,40.78431372549019,100
+2013-12-14 13:56:43 - Color_Light_Back received command 86.84210526315789,14.901960784313726,100
+2013-12-14 13:56:49 - Color_Light_Front received command 226.8292682926829,64.31372549019608,100
+2013-12-14 13:57:10 - Color_Light_Front received command 321.0576923076923,81.56862745098039,100
+2013-12-14 13:57:33 - Scene_General received command 1
+2013-12-14 13:57:33 - Scene_General received command 2
+2013-12-14 13:57:34 - Scene_General received command 3
+2013-12-14 13:58:11 - Light_Front received command OFF
+2013-12-14 13:58:11 - Light_Back received command OFF
+2013-12-14 13:58:11 - Color_Light_Front received command OFF
+2013-12-14 13:58:11 - Color_Light_Back received command OFF
+2013-12-14 13:58:11 - Lights received command OFF
+2013-12-14 13:58:11 - Light_Front state updated to 0
+2013-12-14 13:58:11 - Light_Back state updated to 0
+2013-12-14 13:58:37 - Color_Light_Front received command OFF
+2013-12-14 13:58:38 - Color_Light_Front received command ON
+2013-12-14 13:58:39 - Color_Light_Back received command ON
+2013-12-14 13:58:50 - Light_Front received command INCREASE
+2013-12-14 13:58:51 - Light_Front state updated to 5
+2013-12-14 13:58:51 - Light_Back received command INCREASE
+2013-12-14 13:58:51 - Light_Back state updated to 5
+2013-12-14 13:58:52 - Light_Back received command INCREASE
+2013-12-14 13:58:52 - Light_Back state updated to 10
+2013-12-14 13:58:52 - Light_Back received command INCREASE
+2013-12-14 13:58:52 - Light_Back state updated to 15
+2013-12-14 14:04:05 - Date state updated to 2013-12-14T14:04:05
+2013-12-14 14:04:45 - Light_Back received command ON
+2013-12-14 14:04:46 - Light_Back state updated to 100
+2013-12-14 14:04:47 - Light_Back received command OFF
+2013-12-14 14:04:48 - Light_Back state updated to 0
+2013-12-14 14:04:48 - Light_Back received command ON
+2013-12-14 14:04:49 - Light_Back state updated to 100
+2013-12-14 14:04:50 - Light_Back received command OFF
+2013-12-14 14:04:51 - Light_Back state updated to 0
+2013-12-14 14:05:02 - Light_Back received command ON
+2013-12-14 14:05:04 - Light_Back state updated to 100
+2013-12-14 14:05:04 - Light_Back received command OFF
+2013-12-14 14:05:05 - Light_Back state updated to 0
+2013-12-14 14:05:10 - Light_Back received command ON
+2013-12-14 14:05:12 - Light_Back state updated to 100
+2013-12-14 14:05:36 - Light_Back received command ON
+2013-12-14 14:05:37 - Light_Back state updated to 100
+2013-12-14 14:05:38 - Light_Back received command ON
+2013-12-14 14:05:40 - Light_Back state updated to 100
+2013-12-14 14:06:03 - Light_Back received command ON
+2013-12-14 14:06:05 - Light_Back state updated to 100
