@@ -226,3 +226,25 @@ then
 		}	
 	}
 end
+
+
+
+rule turnLightOn
+when Item Light_Arduino changed from ON to OFF
+
+then 
+	sendCommand(ArduinoController,"a")
+end
+
+rule turnLightOff
+when Item Light_Arduino changed from OFF to ON
+
+then
+	sendCommand(ArduinoController,"b")
+end	
+
+
+	
+
+
+
