@@ -116,3 +116,12 @@ Number Temperature_Setpoint		"Temperature [%.1f °C]" <temperature>
 
 String UnknownDevices    "Unknown Devices in Range: [%s]" { bluetooth="?" }
 Number NoOfPairedDevices "Paired Devices in Range: [%d]"  { bluetooth="!" }
+
+/* Arduino items */
+
+String ArduinoController "ArduinoController" (All) {serial="/dev/ttyACM0"} 
+
+
+
+
+
