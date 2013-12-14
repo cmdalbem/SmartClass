@@ -14,6 +14,8 @@ Dimmer Light_Back 	"Back [%d %%]" 		(GF_Class, Lights)
 Color Color_Light_Front 	"Color Front"		(GF_Class)
 Color Color_Light_Back 	"Color Back" 		(GF_Class)
 
+Switch Automatic_Luminosity "Automatic Luminosity" (GF_Class)
+
 /* Rollershutters */
 Switch Shutter_all (Shutters)
 
@@ -25,7 +27,7 @@ DateTime		Date			"Date [%1$tA, %1$td.%1$tm.%1$tY]"	<calendar>	{ ntp="Europe/Pari
 
 Number Scene_General			"Scene"					<sofa>
 
-Number Luminosity "My lumi"
+Number Luminosity "Luminosity [%d %%]" (GF_Class)
 
 /* Arduino items */
 

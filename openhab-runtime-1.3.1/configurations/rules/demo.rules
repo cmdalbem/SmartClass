@@ -24,18 +24,18 @@ rule "Initialise luminosity"
 when
 	System started
 then
-	postUpdate(Luminosity, 0)
+	postUpdate(Luminosity, 50)
 end
 
 rule "Crontest"
 	when 
-		Time cron "0/15 * * * * ?"
+		Time cron "0/4 * * * * ?"
 	then
-		say(counter)
-		counter = counter + 1
 		luminosity = Luminosity.state as DecimalType 
-		luminosity = luminosity + 1
+		luminosity = luminosity - 1
 		postUpdate(Luminosity, luminosity)
+		counter = counter + 1
+			
 		
 end	
 
@@ -43,9 +43,16 @@ rule "To much lights"
 	when
 		Item Luminosity received update
 	then
-		if (Luminosity.state > 5) {
-			postUpdate(Luminosity, 0)
-			sendCommand(Light_Front, DECREASE)
+		if (Automatic_Luminosity.state == ON) {
+			if (Luminosity.state < 45) {
+				postUpdate(Luminosity, 50)
+				sendCommand(Light_Front, INCREASE)
+				sendCommand(Light_Back, INCREASE)
+			} else if (Luminosity.state > 55) {
+				postUpdate(Luminosity, 50)
+				sendCommand(Light_Front, DECREASE)
+				sendCommand(Light_Back, DECREASE)
+			}
 		}
 end
 
@@ -71,7 +78,6 @@ rule "Dimmed Light Back"
 	when
 		Item Light_Back received command
 	then
-		say("Exterminaaate!")
 		var Number percent = 0
 		if(Light_Back.state instanceof DecimalType) percent = Light_Back.state as DecimalType
 		
