@@ -1,0 +1,412 @@
+2013-12-14 10:23:39 - Date state updated to 2013-12-14T10:23:39
+2013-12-14 10:23:39 - Weather_Temperature state updated to 0
+2013-12-14 10:23:45 - Light_GF_Living_Table state updated to OFF
+2013-12-14 10:23:45 - Light_GF_Corridor_Ceiling state updated to OFF
+2013-12-14 10:23:45 - Light_GF_Kitchen_Ceiling state updated to OFF
+2013-12-14 10:23:45 - Light_GF_Kitchen_Table state updated to OFF
+2013-12-14 10:23:45 - Light_GF_Corridor_Wardrobe state updated to OFF
+2013-12-14 10:23:45 - Light_GF_Toilet_Ceiling state updated to OFF
+2013-12-14 10:23:45 - Light_GF_Toilet_Mirror state updated to ON
+2013-12-14 10:23:45 - Light_FF_Bath_Ceiling state updated to ON
+2013-12-14 10:23:45 - Light_FF_Bath_Mirror state updated to OFF
+2013-12-14 10:23:45 - Light_FF_Corridor_Ceiling state updated to OFF
+2013-12-14 10:23:45 - Light_FF_Office_Ceiling state updated to OFF
+2013-12-14 10:23:45 - Light_FF_Child_Ceiling state updated to ON
+2013-12-14 10:23:45 - Light_FF_Bed_Ceiling state updated to ON
+2013-12-14 10:23:45 - Light_C_Corridor_Ceiling state updated to ON
+2013-12-14 10:23:45 - Light_C_Staircase state updated to OFF
+2013-12-14 10:23:45 - Light_C_Washing_Ceiling state updated to OFF
+2013-12-14 10:23:45 - Light_C_Workshop state updated to OFF
+2013-12-14 10:23:45 - Light_Outdoor_Garage state updated to OFF
+2013-12-14 10:23:45 - Light_Outdoor_Terrace state updated to OFF
+2013-12-14 10:23:45 - Light_Outdoor_Frontdoor state updated to OFF
+2013-12-14 10:23:46 - Heating_GF_Corridor state updated to OFF
+2013-12-14 10:23:46 - Heating_GF_Toilet state updated to OFF
+2013-12-14 10:23:46 - Heating_GF_Living state updated to ON
+2013-12-14 10:23:46 - Heating_GF_Kitchen state updated to OFF
+2013-12-14 10:23:46 - Heating_FF_Bath state updated to OFF
+2013-12-14 10:23:46 - Heating_FF_Office state updated to OFF
+2013-12-14 10:23:46 - Heating_FF_Child state updated to ON
+2013-12-14 10:23:46 - Heating_FF_Bed state updated to OFF
+2013-12-14 10:23:46 - Temperature_Setpoint state updated to 22
+2013-12-14 10:23:46 - Window_GF_Frontdoor state updated to OPEN
+2013-12-14 10:23:46 - Window_GF_Kitchen state updated to OPEN
+2013-12-14 10:23:46 - Window_GF_Living state updated to OPEN
+2013-12-14 10:23:46 - Window_GF_Toilet state updated to CLOSED
+2013-12-14 10:23:46 - Window_FF_Bath state updated to OPEN
+2013-12-14 10:23:46 - Window_FF_Bed state updated to OPEN
+2013-12-14 10:23:46 - Window_FF_Office_Window state updated to OPEN
+2013-12-14 10:23:46 - Window_FF_Office_Door state updated to CLOSED
+2013-12-14 10:23:46 - Garage_Door state updated to CLOSED
+2013-12-14 10:23:46 - Temperature_GF_Corridor state updated to 21.90000000
+2013-12-14 10:23:46 - Temperature_GF_Toilet state updated to 22.00000000
+2013-12-14 10:23:46 - Temperature_GF_Living state updated to 19.60000000
+2013-12-14 10:23:46 - Temperature_GF_Kitchen state updated to 18.00000000
+2013-12-14 10:23:46 - Temperature_FF_Bath state updated to 18.50000000
+2013-12-14 10:23:46 - Temperature_FF_Office state updated to 17.60000000
+2013-12-14 10:23:46 - Temperature_FF_Child state updated to 22.50000000
+2013-12-14 10:23:46 - Temperature_FF_Bed state updated to 21.50000000
+2013-12-14 10:23:46 - Weather_Temp_Max state updated to 0
+2013-12-14 10:23:46 - Weather_Temp_Min state updated to 0
+2013-12-14 10:24:30 - Light_C_Staircase received command ON
+2013-12-14 10:24:32 - Light_C_Staircase received command OFF
+2013-12-14 10:24:38 - Light_C_Washing_Ceiling received command ON
+2013-12-14 10:24:39 - Light_C_Washing_Ceiling received command OFF
+2013-12-14 10:24:39 - Weather_Temperature state updated to 0
+2013-12-14 10:24:54 - Light_C_Staircase received command ON
+2013-12-14 10:25:00 - Heating_GF_Toilet received command ON
+2013-12-14 10:25:00 - Temperature_GF_Corridor state updated to 21.30000000
+2013-12-14 10:25:00 - Temperature_GF_Toilet state updated to 21.40000000
+2013-12-14 10:25:00 - Temperature_GF_Living state updated to 18.20000000
+2013-12-14 10:25:00 - Temperature_GF_Kitchen state updated to 20.60000000
+2013-12-14 10:25:00 - Temperature_FF_Bath state updated to 21.50000000
+2013-12-14 10:25:00 - Temperature_FF_Office state updated to 20.10000000
+2013-12-14 10:25:00 - Temperature_FF_Child state updated to 22.50000000
+2013-12-14 10:25:00 - Temperature_FF_Bed state updated to 22.00000000
+2013-12-14 10:25:02 - Shutter_GF_Toilet received command UP
+2013-12-14 10:25:03 - Shutter_GF_Toilet received command DOWN
+2013-12-14 10:25:03 - Shutter_GF_Toilet received command DOWN
+2013-12-14 10:25:05 - Light_GF_Toilet_Ceiling received command ON
+2013-12-14 10:25:16 - Heating_GF_Corridor received command ON
+2013-12-14 10:25:17 - Heating_GF_Kitchen received command ON
+2013-12-14 10:25:18 - Heating_FF_Bath received command ON
+2013-12-14 10:25:19 - Heating_FF_Office received command ON
+2013-12-14 10:25:20 - Heating_FF_Bed received command ON
+2013-12-14 10:25:21 - Heating_GF_Corridor received command OFF
+2013-12-14 10:25:22 - Heating_GF_Kitchen received command OFF
+2013-12-14 10:25:24 - Heating_FF_Office received command OFF
+2013-12-14 10:25:24 - Heating_FF_Child received command OFF
+2013-12-14 10:25:39 - Weather_Temperature state updated to 0
+2013-12-14 10:26:40 - Weather_Temperature state updated to 0
+2013-12-14 10:27:40 - Weather_Temperature state updated to 0
+2013-12-14 10:28:24 - Light_GF_Living_Table received command OFF
+2013-12-14 10:28:25 - Light_GF_Living_Table received command ON
+2013-12-14 10:28:25 - Light_GF_Living_Table received command ON
+2013-12-14 10:28:27 - Light_GF_Living_Table received command ON
+2013-12-14 10:28:28 - Light_GF_Living_Table received command OFF
+2013-12-14 10:28:28 - Light_GF_Living_Table received command ON
+2013-12-14 10:28:29 - Light_GF_Living_Table received command OFF
+2013-12-14 10:28:29 - Light_GF_Living_Table received command ON
+2013-12-14 10:28:30 - Light_GF_Living_Table received command OFF
+2013-12-14 10:28:31 - Light_GF_Living_Table received command ON
+2013-12-14 10:28:32 - Light_GF_Living_Table received command ON
+2013-12-14 10:28:33 - Light_GF_Living_Table received command OFF
+2013-12-14 10:28:36 - Light_GF_Living_Table received command ON
+2013-12-14 10:28:36 - Light_GF_Living_Table received command OFF
+2013-12-14 10:28:37 - Light_GF_Living_Table received command ON
+2013-12-14 10:28:38 - Light_GF_Living_Table received command OFF
+2013-12-14 10:28:40 - Weather_Temperature state updated to 0
+2013-12-14 10:28:40 - Light_GF_Living_Table received command ON
+2013-12-14 10:28:45 - Light_GF_Living_Table received command INCREASE
+2013-12-14 10:28:45 - Light_GF_Living_Table received command ON
+2013-12-14 10:28:46 - Light_GF_Living_Table received command ON
+2013-12-14 10:28:46 - Light_GF_Living_Table received command ON
+2013-12-14 10:28:47 - Light_GF_Living_Table received command INCREASE
+2013-12-14 10:28:47 - Light_GF_Living_Table received command INCREASE
+2013-12-14 10:28:48 - Light_GF_Living_Table received command INCREASE
+2013-12-14 10:28:48 - Light_GF_Living_Table received command INCREASE
+2013-12-14 10:28:49 - Light_GF_Living_Table received command ON
+2013-12-14 10:28:49 - Light_GF_Living_Table received command ON
+2013-12-14 10:28:51 - Light_GF_Living_Table received command OFF
+2013-12-14 10:28:51 - Light_GF_Living_Table received command OFF
+2013-12-14 10:28:52 - Light_GF_Living_Table received command OFF
+2013-12-14 10:28:53 - Light_GF_Living_Table received command ON
+2013-12-14 10:28:56 - Light_GF_Living_Table received command OFF
+2013-12-14 10:28:57 - Light_GF_Living_Table received command ON
+2013-12-14 10:28:58 - Light_GF_Living_Table received command ON
+2013-12-14 10:29:00 - Light_GF_Living_Table received command OFF
+2013-12-14 10:29:02 - Light_GF_Living_Table received command OFF
+2013-12-14 10:29:40 - Weather_Temperature state updated to 0
+2013-12-14 10:30:00 - Temperature_GF_Corridor state updated to 20.20000000
+2013-12-14 10:30:00 - Temperature_GF_Toilet state updated to 21.40000000
+2013-12-14 10:30:00 - Temperature_GF_Living state updated to 20.30000000
+2013-12-14 10:30:00 - Temperature_GF_Kitchen state updated to 20.90000000
+2013-12-14 10:30:00 - Temperature_FF_Bath state updated to 20.00000000
+2013-12-14 10:30:00 - Temperature_FF_Office state updated to 19.80000000
+2013-12-14 10:30:00 - Temperature_FF_Child state updated to 19.10000000
+2013-12-14 10:30:00 - Temperature_FF_Bed state updated to 22.20000000
+2013-12-14 10:30:41 - Weather_Temperature state updated to 0
+2013-12-14 10:31:41 - Weather_Temperature state updated to 0
+2013-12-14 10:35:59 - Volume received command DECREASE
+2013-12-14 10:36:00 - Volume received command INCREASE
+2013-12-14 10:36:00 - Volume received command INCREASE
+2013-12-14 10:36:01 - Volume received command DECREASE
+2013-12-14 10:36:01 - Volume received command INCREASE
+2013-12-14 10:36:06 - Radio_Station received command 2
+2013-12-14 10:36:20 - Radio_Station received command 3
+2013-12-14 10:36:52 - Radio_Station received command 0
+2013-12-14 10:38:39 - Date state updated to 2013-12-14T10:38:39
+2013-12-14 10:38:45 - DimmedLight received command ON
+2013-12-14 10:38:45 - DimmedLight state updated to 100
+2013-12-14 10:38:45 - DimmedLight received command ON
+2013-12-14 10:38:45 - DimmedLight state updated to 100
+2013-12-14 10:38:46 - DimmedLight received command OFF
+2013-12-14 10:38:46 - DimmedLight state updated to 0
+2013-12-14 10:38:46 - DimmedLight received command OFF
+2013-12-14 10:38:46 - DimmedLight state updated to 0
+2013-12-14 10:38:47 - DimmedLight received command ON
+2013-12-14 10:38:47 - DimmedLight state updated to 100
+2013-12-14 10:42:09 - RGBLight received command OFF
+2013-12-14 10:42:09 - RGBLight received command ON
+2013-12-14 10:42:10 - RGBLight received command ON
+2013-12-14 10:42:11 - RGBLight received command OFF
+2013-12-14 10:46:30 - Light_Front received command OFF
+2013-12-14 10:46:30 - Light_Back received command OFF
+2013-12-14 10:46:30 - Lights received command OFF
+2013-12-14 10:46:31 - Light_Front received command OFF
+2013-12-14 10:46:31 - Light_Back received command OFF
+2013-12-14 10:46:31 - Lights received command OFF
+2013-12-14 10:47:39 - DemoSwitch received command ON
+2013-12-14 10:47:39 - DemoSwitch received command OFF
+2013-12-14 10:47:41 - DemoSwitch received command ON
+2013-12-14 10:47:42 - DemoSwitch received command ON
+2013-12-14 10:47:42 - DemoSwitch received command ON
+2013-12-14 10:47:43 - DemoSwitch received command OFF
+2013-12-14 10:47:44 - DemoSwitch received command ON
+2013-12-14 10:47:47 - DemoSwitch received command OFF
+2013-12-14 10:47:48 - DemoSwitch received command ON
+2013-12-14 10:47:49 - DemoSwitch received command OFF
+2013-12-14 10:50:29 - Date state updated to 2013-12-14T10:50:29
+2013-12-14 10:50:37 - Light_Front state updated to OFF
+2013-12-14 10:50:37 - Light_Back state updated to OFF
+2013-12-14 10:50:37 - Light_VeryFront state updated to OFF
+2013-12-14 10:55:28 - Date state updated to 2013-12-14T10:55:28
+2013-12-14 10:55:36 - Light_Front state updated to OFF
+2013-12-14 10:55:36 - Light_Back state updated to OFF
+2013-12-14 10:55:36 - Light_VeryFront state updated to OFF
+2013-12-14 11:08:05 - Light_Front received command ON
+2013-12-14 11:08:06 - Light_Front received command OFF
+2013-12-14 11:08:06 - Light_Back received command ON
+2013-12-14 11:08:08 - Light_Back received command OFF
+2013-12-14 11:08:08 - Light_VeryFront received command ON
+2013-12-14 11:08:10 - Light_VeryFront received command OFF
+2013-12-14 11:08:12 - Shutter_Front received command DOWN
+2013-12-14 11:08:13 - Shutter_Front received command UP
+2013-12-14 11:08:15 - Shutter_Front received command DOWN
+2013-12-14 11:08:17 - Shutter_Back received command DOWN
+2013-12-14 11:08:18 - Shutter_Back received command UP
+2013-12-14 11:10:28 - Date state updated to 2013-12-14T11:10:28
+2013-12-14 11:25:28 - Date state updated to 2013-12-14T11:25:28
+2013-12-14 11:26:23 - Scene_General received command 1
+2013-12-14 11:26:25 - Scene_General received command 2
+2013-12-14 11:26:25 - Scene_General received command 3
+2013-12-14 11:27:49 - Light_Front received command OFF
+2013-12-14 11:27:49 - Light_Back received command OFF
+2013-12-14 11:27:49 - Light_VeryFront received command OFF
+2013-12-14 11:27:49 - Lights received command OFF
+2013-12-14 11:27:50 - Light_Front received command OFF
+2013-12-14 11:27:50 - Light_Back received command OFF
+2013-12-14 11:27:50 - Light_VeryFront received command OFF
+2013-12-14 11:27:50 - Lights received command OFF
+2013-12-14 11:27:52 - Light_Front received command OFF
+2013-12-14 11:27:52 - Light_Back received command OFF
+2013-12-14 11:27:52 - Light_VeryFront received command OFF
+2013-12-14 11:27:52 - Lights received command OFF
+2013-12-14 11:29:10 - Scene_General received command 2
+2013-12-14 11:29:10 - Scene_General received command 1
+2013-12-14 11:29:11 - Scene_General received command 3
+2013-12-14 11:29:31 - Scene_General received command 1
+2013-12-14 11:29:31 - Scene_General received command 2
+2013-12-14 11:29:32 - Scene_General received command 3
+2013-12-14 11:29:33 - Scene_General received command 2
+2013-12-14 11:29:34 - Scene_General received command 1
+2013-12-14 11:29:38 - Light_Front received command ON
+2013-12-14 11:29:38 - Light_Back received command ON
+2013-12-14 11:29:42 - Light_Front received command OFF
+2013-12-14 11:29:42 - Light_Back received command OFF
+2013-12-14 11:29:42 - Light_VeryFront received command OFF
+2013-12-14 11:29:42 - Lights received command OFF
+2013-12-14 11:29:54 - Light_VeryFront received command INCREASE
+2013-12-14 11:29:54 - Light_VeryFront received command INCREASE
+2013-12-14 11:29:54 - Light_Back received command ON
+2013-12-14 11:29:54 - Light_VeryFront received command INCREASE
+2013-12-14 11:29:55 - Light_VeryFront received command INCREASE
+2013-12-14 11:29:56 - Light_Front received command ON
+2013-12-14 11:29:57 - Light_VeryFront received command ON
+2013-12-14 11:30:25 - Shutter_Front received command UP
+2013-12-14 11:40:31 - Date state updated to 2013-12-14T11:40:31
+2013-12-14 11:55:31 - Date state updated to 2013-12-14T11:55:31
+2013-12-14 12:10:31 - Date state updated to 2013-12-14T12:10:31
+2013-12-14 12:14:40 - Light_VeryFront received command ON
+2013-12-14 12:14:41 - Light_VeryFront received command OFF
+2013-12-14 12:15:51 - Light_VeryFront received command ON
+2013-12-14 12:16:06 - Light_VeryFront received command OFF
+2013-12-14 12:21:04 - Light_Front received command INCREASE
+2013-12-14 12:21:05 - Light_Front received command INCREASE
+2013-12-14 12:21:08 - Light_Front received command DECREASE
+2013-12-14 12:21:09 - Light_Front received command OFF
+2013-12-14 12:21:09 - Light_Back received command OFF
+2013-12-14 12:21:09 - Lights received command OFF
+2013-12-14 12:21:10 - Light_Front received command OFF
+2013-12-14 12:21:10 - Light_Back received command OFF
+2013-12-14 12:21:10 - Lights received command OFF
+2013-12-14 12:21:13 - Light_Front received command INCREASE
+2013-12-14 12:21:14 - Light_Front received command INCREASE
+2013-12-14 12:21:15 - Light_Front received command INCREASE
+2013-12-14 12:21:15 - Light_Front received command INCREASE
+2013-12-14 12:21:15 - Light_Front received command INCREASE
+2013-12-14 12:21:16 - Light_Front received command INCREASE
+2013-12-14 12:21:16 - Light_Front received command INCREASE
+2013-12-14 12:21:16 - Light_Front received command INCREASE
+2013-12-14 12:21:16 - Light_Front received command INCREASE
+2013-12-14 12:21:17 - Light_Front received command INCREASE
+2013-12-14 12:21:17 - Light_Front received command INCREASE
+2013-12-14 12:21:17 - Light_Front received command INCREASE
+2013-12-14 12:21:59 - Light_Front state updated to ON
+2013-12-14 12:21:59 - Light_Back state updated to OFF
+2013-12-14 12:22:31 - Light_Front state updated to ON
+2013-12-14 12:22:31 - Light_Back state updated to OFF
+2013-12-14 12:22:36 - Light_Front received command DECREASE
+2013-12-14 12:22:36 - Light_Front state updated to 95
+2013-12-14 12:22:37 - Light_Front received command DECREASE
+2013-12-14 12:22:37 - Light_Front state updated to 90
+2013-12-14 12:22:38 - Light_Front received command DECREASE
+2013-12-14 12:22:38 - Light_Front state updated to 85
+2013-12-14 12:22:39 - Light_Back received command INCREASE
+2013-12-14 12:22:39 - Light_Back state updated to 5
+2013-12-14 12:22:40 - Light_Back received command INCREASE
+2013-12-14 12:22:40 - Light_Back state updated to 10
+2013-12-14 12:22:40 - Light_Back received command INCREASE
+2013-12-14 12:22:40 - Light_Back state updated to 15
+2013-12-14 12:22:41 - Light_Back received command INCREASE
+2013-12-14 12:22:41 - Light_Back state updated to 20
+2013-12-14 12:22:41 - Light_Back received command INCREASE
+2013-12-14 12:22:41 - Light_Back state updated to 25
+2013-12-14 12:22:41 - Light_Back received command INCREASE
+2013-12-14 12:22:41 - Light_Back state updated to 30
+2013-12-14 12:22:42 - Light_Front received command OFF
+2013-12-14 12:22:42 - Light_Back received command OFF
+2013-12-14 12:22:42 - Lights received command OFF
+2013-12-14 12:22:42 - Light_Front state updated to 0
+2013-12-14 12:22:42 - Light_Back state updated to 0
+2013-12-14 12:22:43 - Light_Front state updated to OFF
+2013-12-14 12:22:43 - Light_Back state updated to ON
+2013-12-14 12:22:45 - Light_Front received command OFF
+2013-12-14 12:22:45 - Light_Back received command OFF
+2013-12-14 12:22:45 - Lights received command OFF
+2013-12-14 12:22:45 - Light_Front state updated to 0
+2013-12-14 12:22:45 - Light_Back state updated to 0
+2013-12-14 12:22:46 - Light_Front received command DECREASE
+2013-12-14 12:22:46 - Light_Front state updated to 0
+2013-12-14 12:22:47 - Light_Front received command INCREASE
+2013-12-14 12:22:47 - Light_Front state updated to 5
+2013-12-14 12:22:47 - Light_Front received command INCREASE
+2013-12-14 12:22:47 - Light_Front state updated to 10
+2013-12-14 12:22:47 - Light_Front received command INCREASE
+2013-12-14 12:22:47 - Light_Front state updated to 15
+2013-12-14 12:22:48 - Light_Back received command INCREASE
+2013-12-14 12:22:48 - Light_Back state updated to 5
+2013-12-14 12:22:49 - Light_Back received command INCREASE
+2013-12-14 12:22:49 - Light_Back state updated to 10
+2013-12-14 12:22:49 - Light_Back received command INCREASE
+2013-12-14 12:22:49 - Light_Back state updated to 15
+2013-12-14 12:22:50 - Light_Front received command OFF
+2013-12-14 12:22:50 - Light_Back received command OFF
+2013-12-14 12:22:50 - Lights received command OFF
+2013-12-14 12:22:50 - Light_Front state updated to 0
+2013-12-14 12:22:50 - Light_Back state updated to 0
+2013-12-14 12:22:51 - Light_Front received command INCREASE
+2013-12-14 12:22:51 - Light_Front state updated to 5
+2013-12-14 12:22:51 - Light_Front received command INCREASE
+2013-12-14 12:22:51 - Light_Front state updated to 10
+2013-12-14 12:22:52 - Light_Front received command INCREASE
+2013-12-14 12:22:52 - Light_Front state updated to 15
+2013-12-14 12:22:53 - Light_Front received command INCREASE
+2013-12-14 12:22:53 - Light_Front state updated to 20
+2013-12-14 12:22:53 - Light_Front received command INCREASE
+2013-12-14 12:22:53 - Light_Front state updated to 25
+2013-12-14 12:22:53 - Light_Front received command INCREASE
+2013-12-14 12:22:53 - Light_Front state updated to 30
+2013-12-14 12:22:54 - Light_Front received command INCREASE
+2013-12-14 12:22:54 - Light_Front state updated to 35
+2013-12-14 12:22:54 - Light_Front received command INCREASE
+2013-12-14 12:22:54 - Light_Front state updated to 40
+2013-12-14 12:22:54 - Light_Front received command INCREASE
+2013-12-14 12:22:54 - Light_Front state updated to 45
+2013-12-14 12:22:55 - Light_Front received command INCREASE
+2013-12-14 12:22:55 - Light_Front state updated to 50
+2013-12-14 12:22:55 - Light_Front received command INCREASE
+2013-12-14 12:22:55 - Light_Front received command INCREASE
+2013-12-14 12:22:55 - Light_Front state updated to 55
+2013-12-14 12:22:55 - Light_Front state updated to 60
+2013-12-14 12:22:55 - Light_Front received command INCREASE
+2013-12-14 12:22:55 - Light_Front state updated to 65
+2013-12-14 12:22:55 - Light_Front received command INCREASE
+2013-12-14 12:22:55 - Light_Front state updated to 70
+2013-12-14 12:22:55 - Light_Front received command INCREASE
+2013-12-14 12:22:55 - Light_Front state updated to 75
+2013-12-14 12:22:57 - Light_Front received command OFF
+2013-12-14 12:22:57 - Light_Back received command OFF
+2013-12-14 12:22:57 - Lights received command OFF
+2013-12-14 12:22:57 - Light_Front state updated to 0
+2013-12-14 12:22:57 - Light_Back state updated to 0
+2013-12-14 12:22:58 - Light_Front received command INCREASE
+2013-12-14 12:22:58 - Light_Front state updated to 5
+2013-12-14 12:22:58 - Light_Front received command INCREASE
+2013-12-14 12:22:58 - Light_Front state updated to 10
+2013-12-14 12:22:58 - Light_Front received command INCREASE
+2013-12-14 12:22:58 - Light_Front state updated to 15
+2013-12-14 12:22:58 - Light_Front received command INCREASE
+2013-12-14 12:22:58 - Light_Front state updated to 20
+2013-12-14 12:22:58 - Light_Front received command INCREASE
+2013-12-14 12:22:58 - Light_Front state updated to 25
+2013-12-14 12:22:59 - Light_Front received command INCREASE
+2013-12-14 12:22:59 - Light_Front state updated to 30
+2013-12-14 12:22:59 - Light_Front received command INCREASE
+2013-12-14 12:22:59 - Light_Front state updated to 35
+2013-12-14 12:22:59 - Light_Front received command INCREASE
+2013-12-14 12:22:59 - Light_Front state updated to 40
+2013-12-14 12:22:59 - Light_Front received command INCREASE
+2013-12-14 12:22:59 - Light_Front state updated to 45
+2013-12-14 12:22:59 - Light_Front received command INCREASE
+2013-12-14 12:22:59 - Light_Front state updated to 50
+2013-12-14 12:22:59 - Light_Front received command INCREASE
+2013-12-14 12:22:59 - Light_Front state updated to 55
+2013-12-14 12:23:00 - Light_Front received command INCREASE
+2013-12-14 12:23:00 - Light_Front state updated to 60
+2013-12-14 12:23:00 - Light_Back received command INCREASE
+2013-12-14 12:23:00 - Light_Back state updated to 5
+2013-12-14 12:23:00 - Light_Back received command INCREASE
+2013-12-14 12:23:00 - Light_Back state updated to 10
+2013-12-14 12:23:01 - Light_Back received command INCREASE
+2013-12-14 12:23:01 - Light_Back state updated to 15
+2013-12-14 12:23:01 - Light_Back received command INCREASE
+2013-12-14 12:23:01 - Light_Back state updated to 20
+2013-12-14 12:23:01 - Light_Back received command INCREASE
+2013-12-14 12:23:01 - Light_Back state updated to 25
+2013-12-14 12:23:01 - Light_Back received command INCREASE
+2013-12-14 12:23:01 - Light_Back state updated to 30
+2013-12-14 12:23:03 - Light_Front received command OFF
+2013-12-14 12:23:03 - Light_Back received command OFF
+2013-12-14 12:23:03 - Lights received command OFF
+2013-12-14 12:23:03 - Light_Front state updated to 0
+2013-12-14 12:23:03 - Light_Back state updated to 0
+2013-12-14 12:23:07 - Light_Front received command ON
+2013-12-14 12:23:07 - Light_Front state updated to 100
+2013-12-14 12:23:08 - Light_Front received command OFF
+2013-12-14 12:23:08 - Light_Front state updated to 0
+2013-12-14 12:23:09 - Light_Front received command ON
+2013-12-14 12:23:09 - Light_Front state updated to 100
+2013-12-14 12:23:10 - Light_Front received command OFF
+2013-12-14 12:23:10 - Light_Front state updated to 0
+2013-12-14 12:23:11 - Light_Front received command ON
+2013-12-14 12:23:11 - Light_Front state updated to 100
+2013-12-14 12:23:11 - Light_Back received command ON
+2013-12-14 12:23:11 - Light_Back state updated to 100
+2013-12-14 12:23:12 - Light_Back received command OFF
+2013-12-14 12:23:12 - Light_Back state updated to 0
+2013-12-14 12:23:13 - Light_Front received command OFF
+2013-12-14 12:23:13 - Light_Front state updated to 0
+2013-12-14 12:23:13 - Light_Front received command ON
+2013-12-14 12:23:13 - Light_Front state updated to 100
+2013-12-14 12:23:15 - Light_Front received command OFF
+2013-12-14 12:23:15 - Light_Front state updated to 0
+2013-12-14 12:23:31 - Shutter_Front received command DOWN
+2013-12-14 12:23:34 - Shutter_Front received command UP
+2013-12-14 12:25:31 - Date state updated to 2013-12-14T12:25:31
+2013-12-14 12:25:55 - Light_Front state updated to OFF
+2013-12-14 12:25:55 - Light_Back state updated to OFF
+2013-12-14 12:29:37 - Light_Front state updated to ON
+2013-12-14 12:29:37 - Light_Back state updated to OFF
+2013-12-14 12:29:58 - Light_Front state updated to OFF
+2013-12-14 12:29:58 - Light_Back state updated to OFF

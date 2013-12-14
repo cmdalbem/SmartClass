@@ -85,3 +85,1693 @@ org.openhab.ui.webapp.render.RenderException: Sitemap 'default' could not be fou
 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
 15:41:22.585 INFO  o.o.i.r.i.RESTApplication[:174]- Stopped REST API
 15:41:26.596 INFO  o.o.u.w.i.s.WebAppServlet[:110]- Stopped Classic UI
+15:54:24.063 WARN  o.o.c.core.ConfigDispatcher[:192]- Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+15:54:24.641 INFO  o.o.c.internal.CoreActivator[:92]- openHAB runtime has been started (v1.3.1).
+15:54:26.171 INFO  o.o.i.s.i.DiscoveryServiceImpl[:92]- mDNS service has been started
+15:54:26.779 INFO  o.o.i.r.i.RESTApplication[:158]- Started REST API at /rest
+15:54:35.056 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.sitemap'
+15:54:35.217 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.script'
+15:54:35.287 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'db4o.persist'
+15:54:35.303 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'rrd4j.persist'
+15:54:35.308 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'exec.persist'
+15:54:35.312 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'logging.persist'
+15:54:35.335 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.items'
+15:54:36.363 INFO  o.o.u.w.i.s.WebAppServlet[:99]- Started Classic UI at /openhab.app
+15:54:39.206 INFO  o.o.c.s.AbstractActiveService[:189]- HTTP Refresh Service has been started
+15:54:39.425 INFO  o.o.c.s.AbstractActiveService[:189]- NTP Refresh Service has been started
+15:54:43.709 WARN  o.e.j.servlet.ServletHandler[:553]- /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'default' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:134)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+15:54:44.483 WARN  o.o.b.ntp.internal.NtpBinding[:142]- couldn't establish network connection [host 'ptbtime1.ptb.de'] -> returning current sytem time instead
+15:54:45.499 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.rules'
+15:54:56.034 WARN  o.e.j.servlet.ServletHandler[:553]- /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'default' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:134)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+15:54:56.795 WARN  o.e.j.servlet.ServletHandler[:553]- /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'default' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:134)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+15:54:57.157 WARN  o.e.j.servlet.ServletHandler[:553]- /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'default' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:134)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+15:54:57.371 WARN  o.e.j.servlet.ServletHandler[:553]- /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'default' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:134)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+15:54:57.547 WARN  o.e.j.servlet.ServletHandler[:553]- /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'default' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:134)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+15:55:59.037 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+15:56:19.068 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+15:56:29.095 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+16:09:49.547 WARN  o.o.b.ntp.internal.NtpBinding[:142]- couldn't establish network connection [host 'ptbtime1.ptb.de'] -> returning current sytem time instead
+16:42:40.074 ERROR o.openhab.io.net.http.HttpUtil[:231]- Fatal transport error: java.net.UnknownHostException: weather.yahooapis.com
+16:42:40.086 ERROR o.o.b.h.internal.HttpBinding[:197]- No response received from 'http://weather.yahooapis.com/forecastrss?w=638242&u=c'
+16:42:40.087 WARN  j.j.i.tasks.state.DNSStateTask[:144]- Renewer(fe80:0:0:0:86a6:c8ff:fed3:51f8%3.local.).run() exception 
+java.io.IOException: Le réseau n'est pas accessible
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:676)
+	at javax.jmdns.impl.JmDNSImpl.send(JmDNSImpl.java:1536)
+	at javax.jmdns.impl.tasks.state.DNSStateTask.run(DNSStateTask.java:131)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+16:42:40.090 WARN  javax.jmdns.impl.JmDNSImpl[:1716]- RECOVERING
+16:42:40.093 WARN  j.j.i.tasks.state.DNSStateTask[:144]- Canceler(fe80:0:0:0:86a6:c8ff:fed3:51f8%3.local.).run() exception 
+java.io.IOException: Le réseau n'est pas accessible
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:676)
+	at javax.jmdns.impl.JmDNSImpl.send(JmDNSImpl.java:1536)
+	at javax.jmdns.impl.tasks.state.DNSStateTask.run(DNSStateTask.java:131)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+16:42:45.094 WARN  j.j.i.DNSStatefulObject$DefaultImplementation[:402]- Wait for canceled timed out: DNS: fe80:0:0:0:86a6:c8ff:fed3:51f8%3.local. state: canceling 1 task: null
+16:42:51.967 WARN  j.j.i.DNSStatefulObject$DefaultImplementation[:402]- Wait for canceled timed out: DNS: fe80:0:0:0:86a6:c8ff:fed3:51f8%3.local. state: canceling 1 task: null
+16:42:56.968 WARN  j.j.i.DNSStatefulObject$DefaultImplementation[:402]- Wait for canceled timed out: DNS: fe80:0:0:0:86a6:c8ff:fed3:51f8%3.local. state: canceling 1 task: null
+16:42:56.969 WARN  javax.jmdns.impl.JmDNSImpl[:1760]- fe80:0:0:0:86a6:c8ff:fed3:51f8%3.local.recover() Could not recover we are Down!
+16:46:02.218 INFO  o.o.i.r.i.RESTApplication[:174]- Stopped REST API
+16:46:02.224 INFO  o.o.u.w.i.s.WebAppServlet[:110]- Stopped Classic UI
+10:23:21.784 WARN  o.o.c.core.ConfigDispatcher[:192]- Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+10:23:22.120 INFO  o.o.c.internal.CoreActivator[:92]- openHAB runtime has been started (v1.3.1).
+10:23:24.125 INFO  o.o.i.s.i.DiscoveryServiceImpl[:92]- mDNS service has been started
+10:23:24.797 INFO  o.o.i.r.i.RESTApplication[:158]- Started REST API at /rest
+10:23:32.803 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.sitemap'
+10:23:32.963 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.script'
+10:23:33.045 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'db4o.persist'
+10:23:33.059 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'rrd4j.persist'
+10:23:33.065 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'exec.persist'
+10:23:33.067 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'logging.persist'
+10:23:33.088 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.items'
+10:23:34.266 INFO  o.o.u.w.i.s.WebAppServlet[:99]- Started Classic UI at /openhab.app
+10:23:38.600 INFO  o.o.c.s.AbstractActiveService[:189]- HTTP Refresh Service has been started
+10:23:38.929 INFO  o.o.c.s.AbstractActiveService[:189]- NTP Refresh Service has been started
+10:23:43.224 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.rules'
+10:24:09.356 WARN  o.e.j.servlet.ServletHandler[:553]- /openhab.app
+org.openhab.ui.webapp.render.RenderException: Sitemap 'default' could not be found
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:134)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+10:32:16.468 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+10:32:16.595 INFO  o.o.c.s.AbstractActiveService[:201]- HTTP Refresh Service has been shut down
+10:32:27.089 WARN  o.o.u.i.i.ItemUIRegistryImpl[:439]- Cannot find page for id 'GF_Toilet'.
+10:33:00.055 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+10:34:00.050 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+10:34:14.109 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'Ground Floor' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'gGF' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:34:16.263 WARN  o.o.u.i.i.ItemUIRegistryImpl[:439]- Cannot find page for id 'GF_Corridor'.
+10:34:16.850 WARN  o.o.u.i.i.ItemUIRegistryImpl[:439]- Cannot find page for id 'GF_Corridor'.
+10:34:18.986 WARN  o.o.u.i.i.ItemUIRegistryImpl[:439]- Cannot find page for id 'GF_Toilet'.
+10:34:19.356 WARN  o.o.u.i.i.ItemUIRegistryImpl[:439]- Cannot find page for id 'GF_Toilet'.
+10:34:21.083 WARN  o.o.u.i.i.ItemUIRegistryImpl[:439]- Cannot find page for id 'GF_Kitchen'.
+10:34:21.618 WARN  o.o.u.i.i.ItemUIRegistryImpl[:439]- Cannot find page for id 'GF_Kitchen'.
+10:34:24.409 WARN  o.o.u.i.i.ItemUIRegistryImpl[:439]- Cannot find page for id 'GF_Living'.
+10:34:24.876 WARN  o.o.u.i.i.ItemUIRegistryImpl[:439]- Cannot find page for id 'GF_Living'.
+10:34:28.911 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Heating' for widget org.openhab.model.sitemap.Group
+10:34:28.912 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Temperature' for widget org.openhab.model.sitemap.Text
+10:34:31.602 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'null' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'Heating' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:34:32.151 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'null' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'Heating' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:35:00.051 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+10:35:00.055 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.NullPointerException: null
+	at org.eclipse.xtext.xbase.lib.IterableExtensions.forEach(IterableExtensions.java:394)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+10:35:59.550 ERROR o.o.c.s.ScriptExecutionThread[:70]- Error during the execution of rule 'Volume control': Cannot determine master volume level
+10:36:00.048 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+10:36:00.209 ERROR o.o.c.s.ScriptExecutionThread[:70]- Error during the execution of rule 'Volume control': Cannot determine master volume level
+10:36:00.577 ERROR o.o.c.s.ScriptExecutionThread[:70]- Error during the execution of rule 'Volume control': Cannot determine master volume level
+10:36:01.421 ERROR o.o.c.s.ScriptExecutionThread[:70]- Error during the execution of rule 'Volume control': Cannot determine master volume level
+10:36:01.796 ERROR o.o.c.s.ScriptExecutionThread[:70]- Error during the execution of rule 'Volume control': Cannot determine master volume level
+10:37:00.044 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+10:38:00.051 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+10:38:32.172 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Heating' for widget org.openhab.model.sitemap.Group
+10:38:32.173 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Temperature' for widget org.openhab.model.sitemap.Text
+10:38:39.489 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'gFF' for widget org.openhab.model.sitemap.Group
+10:38:39.490 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'gGF' for widget org.openhab.model.sitemap.Group
+10:38:39.490 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'gC' for widget org.openhab.model.sitemap.Group
+10:38:39.491 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Outdoor' for widget org.openhab.model.sitemap.Group
+10:38:39.492 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Weather_Temperature' for widget org.openhab.model.sitemap.Text
+10:39:00.045 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+10:40:00.039 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+10:40:00.045 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.NullPointerException: null
+	at org.eclipse.xtext.xbase.lib.IterableExtensions.forEach(IterableExtensions.java:394)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+10:41:00.045 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+10:42:00.043 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+10:43:00.059 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+10:44:00.051 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+10:45:00.051 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+10:45:00.064 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.NullPointerException: null
+	at org.eclipse.xtext.xbase.lib.IterableExtensions.forEach(IterableExtensions.java:394)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+10:46:00.045 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+10:46:27.206 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Heating' for widget org.openhab.model.sitemap.Group
+10:46:27.208 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Temperature' for widget org.openhab.model.sitemap.Text
+10:46:30.286 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Heating' for widget org.openhab.model.sitemap.Group
+10:46:30.287 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Temperature' for widget org.openhab.model.sitemap.Text
+10:46:32.776 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'null' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'Heating' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:46:33.344 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'null' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'Heating' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:47:00.070 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+10:47:00.627 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'null' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'Outdoor' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:47:00.639 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'Cellar' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'gC' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:47:00.653 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'Cellar' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'gC' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:47:03.672 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'Cellar' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'gC' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:47:06.091 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'null' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'Outdoor' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:47:06.474 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'null' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'Outdoor' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:47:08.416 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'Ground Floor' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'gGF' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:47:08.735 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'Ground Floor' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'gGF' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:47:15.025 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'First Floor' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'gFF' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:47:15.039 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'First Floor' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'gFF' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:47:25.500 WARN  o.o.u.i.i.ItemUIRegistryImpl[:439]- Cannot find page for id 'FF_Bath'.
+10:47:25.505 WARN  o.o.u.i.i.ItemUIRegistryImpl[:439]- Cannot find page for id 'FF_Bath'.
+10:47:25.521 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'First Floor' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'gFF' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:47:30.997 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'Cellar' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'gC' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:47:36.789 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Heating' for widget org.openhab.model.sitemap.Group
+10:47:36.790 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Temperature' for widget org.openhab.model.sitemap.Text
+10:47:39.115 INFO  o.o.m.script.Persistence Demo[:73]- You did not press this button during the last 5 seconds!
+10:47:39.601 INFO  o.o.m.script.Persistence Demo[:73]- You did not press this button during the last 5 seconds!
+10:48:00.065 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+10:48:16.586 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+10:48:31.383 INFO  o.o.i.r.i.RESTApplication[:174]- Stopped REST API
+10:49:00.015 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+10:50:00.014 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+10:50:00.027 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.NullPointerException: null
+	at org.eclipse.xtext.xbase.lib.IterableExtensions.forEach(IterableExtensions.java:394)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+10:50:14.434 WARN  o.o.c.core.ConfigDispatcher[:192]- Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+10:50:14.655 INFO  o.o.c.internal.CoreActivator[:92]- openHAB runtime has been started (v1.3.1).
+10:50:16.061 INFO  o.o.i.s.i.DiscoveryServiceImpl[:92]- mDNS service has been started
+10:50:16.640 INFO  o.o.i.r.i.RESTApplication[:158]- Started REST API at /rest
+10:50:25.045 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.sitemap'
+10:50:25.190 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.script'
+10:50:25.256 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'db4o.persist'
+10:50:25.269 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'rrd4j.persist'
+10:50:25.274 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'exec.persist'
+10:50:25.277 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'logging.persist'
+10:50:25.298 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.items'
+10:50:26.526 INFO  o.o.u.w.i.s.WebAppServlet[:99]- Started Classic UI at /openhab.app
+10:50:29.670 INFO  o.o.c.s.AbstractActiveService[:189]- NTP Refresh Service has been started
+10:50:29.732 INFO  o.o.c.s.AbstractActiveService[:189]- HTTP Refresh Service has been started
+10:50:35.408 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.rules'
+10:51:00.017 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+10:51:00.051 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+10:51:24.705 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'gFF' for widget org.openhab.model.sitemap.Group
+10:51:24.706 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'gGF' for widget org.openhab.model.sitemap.Group
+10:51:24.706 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'gC' for widget org.openhab.model.sitemap.Group
+10:51:24.706 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Outdoor' for widget org.openhab.model.sitemap.Group
+10:51:24.708 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Weather_Temperature' for widget org.openhab.model.sitemap.Text
+10:52:00.015 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+10:52:00.042 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+10:53:00.019 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.NullPointerException: null
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.getAllStatesSince(PersistenceExtensions.java:413)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:181)
+	at org.openhab.core.persistence.extensions.PersistenceExtensions.changedSince(PersistenceExtensions.java:165)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+10:53:00.038 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+10:53:09.324 INFO  o.o.i.r.i.RESTApplication[:174]- Stopped REST API
+10:53:27.792 INFO  o.o.u.w.i.s.WebAppServlet[:110]- Stopped Classic UI
+10:53:31.370 INFO  o.o.u.w.i.s.WebAppServlet[:110]- Stopped Classic UI
+10:55:12.868 WARN  o.o.c.core.ConfigDispatcher[:192]- Main openHAB configuration file 'configurations/openhab.cfg' does not exist.
+10:55:13.093 INFO  o.o.c.internal.CoreActivator[:92]- openHAB runtime has been started (v1.3.1).
+10:55:14.468 INFO  o.o.i.s.i.DiscoveryServiceImpl[:92]- mDNS service has been started
+10:55:15.039 INFO  o.o.i.r.i.RESTApplication[:158]- Started REST API at /rest
+10:55:23.473 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.sitemap'
+10:55:23.614 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.script'
+10:55:23.683 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'db4o.persist'
+10:55:23.698 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'rrd4j.persist'
+10:55:23.703 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'exec.persist'
+10:55:23.707 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'logging.persist'
+10:55:23.729 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.items'
+10:55:24.737 INFO  o.o.u.w.i.s.WebAppServlet[:99]- Started Classic UI at /openhab.app
+10:55:28.195 INFO  o.o.c.s.AbstractActiveService[:189]- HTTP Refresh Service has been started
+10:55:28.209 INFO  o.o.c.s.AbstractActiveService[:189]- NTP Refresh Service has been started
+10:55:33.818 INFO  o.o.m.c.i.ModelRepositoryImpl[:99]- Loading model 'demo.rules'
+10:56:00.034 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+10:56:05.490 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'gFF' for widget org.openhab.model.sitemap.Group
+10:56:05.491 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'gGF' for widget org.openhab.model.sitemap.Group
+10:56:05.491 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'gC' for widget org.openhab.model.sitemap.Group
+10:56:05.492 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Outdoor' for widget org.openhab.model.sitemap.Group
+10:56:05.493 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Weather_Temperature' for widget org.openhab.model.sitemap.Text
+10:56:40.335 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'First Floor' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'gFF' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:56:40.878 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'First Floor' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'gFF' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:56:42.828 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'Ground Floor' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'gGF' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:56:43.380 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'Ground Floor' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'gGF' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:56:45.460 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'Cellar' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'gC' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:56:45.887 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'Cellar' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'gC' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:56:47.636 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'null' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'Outdoor' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:56:48.145 WARN  o.o.u.i.i.ItemUIRegistryImpl[:480]- Group 'null' could not be found.
+org.openhab.core.items.ItemNotFoundException: Item 'Outdoor' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getDynamicGroupChildren(ItemUIRegistryImpl.java:466)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getChildren(ItemUIRegistryImpl.java:448)
+	at org.openhab.ui.webapp.internal.servlet.WebAppServlet.service(WebAppServlet.java:156)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+10:57:00.030 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+10:57:00.343 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Weather_Temp_Max' for widget org.openhab.model.sitemap.Text
+10:57:00.343 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Heating' for widget org.openhab.model.sitemap.Group
+10:57:00.345 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Weather_Temp_Min' for widget org.openhab.model.sitemap.Text
+10:57:00.345 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Temperature' for widget org.openhab.model.sitemap.Text
+10:57:00.347 WARN  o.o.u.w.i.render.ChartRenderer[:99]- Chart cannot be rendered as item 'Weather_Chart' does not exist.
+10:57:00.347 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'gFF' for widget org.openhab.model.sitemap.Group
+10:57:00.348 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'gGF' for widget org.openhab.model.sitemap.Group
+10:57:00.348 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'gC' for widget org.openhab.model.sitemap.Group
+10:57:00.349 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Outdoor' for widget org.openhab.model.sitemap.Group
+10:57:00.349 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Weather_Temperature' for widget org.openhab.model.sitemap.Text
+10:58:00.032 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+10:59:00.028 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:00:00.056 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:00:00.067 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:01:00.030 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:02:00.030 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:03:00.040 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:04:00.041 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:05:00.031 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:05:00.047 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:06:00.030 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:06:46.671 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+11:07:00.042 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:07:56.692 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+11:08:00.031 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:09:00.028 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:09:56.719 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+11:10:00.058 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:10:00.069 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:10:26.733 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+11:11:00.030 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:12:00.042 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:13:00.041 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:14:00.027 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:15:00.038 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:15:00.064 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:16:00.017 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:17:00.027 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:18:00.028 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:19:00.030 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:20:00.029 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:20:00.051 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:21:00.027 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:22:00.027 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:23:00.025 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:24:00.030 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:24:33.919 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'DemoSwitch'
+org.openhab.core.items.ItemNotFoundException: Item 'DemoSwitch' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+11:24:33.920 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'DemoSwitch' for widget org.openhab.model.sitemap.Switch
+11:24:33.920 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'DemoSwitch' for widget org.openhab.model.sitemap.Switch
+11:24:33.921 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Scene_General' for widget org.openhab.model.sitemap.Selection
+11:24:33.921 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Scene_General' for widget org.openhab.model.sitemap.Selection
+11:24:33.928 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Scene_General'
+org.openhab.core.items.ItemNotFoundException: Item 'Scene_General' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+11:24:33.929 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Scene_General' for widget org.openhab.model.sitemap.Switch
+11:24:33.929 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Scene_General' for widget org.openhab.model.sitemap.Switch
+11:24:37.926 WARN  o.o.u.w.i.servlet.CmdServlet[:120]- Received command '1' for item 'Scene_General', but the item does not exist in the registry
+11:24:45.222 WARN  o.o.u.w.i.servlet.CmdServlet[:120]- Received command 'TOGGLE' for item 'Scene_General', but the item does not exist in the registry
+11:24:46.863 WARN  o.o.u.w.i.servlet.CmdServlet[:120]- Received command 'TOGGLE' for item 'Scene_General', but the item does not exist in the registry
+11:24:47.794 WARN  o.o.u.w.i.servlet.CmdServlet[:120]- Received command 'TOGGLE' for item 'Scene_General', but the item does not exist in the registry
+11:25:00.054 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:25:00.066 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:26:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:26:06.904 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+11:26:20.818 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'DemoSwitch'
+org.openhab.core.items.ItemNotFoundException: Item 'DemoSwitch' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+11:26:20.820 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'DemoSwitch' for widget org.openhab.model.sitemap.Switch
+11:26:20.820 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'DemoSwitch' for widget org.openhab.model.sitemap.Switch
+11:26:23.984 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'DemoSwitch'
+org.openhab.core.items.ItemNotFoundException: Item 'DemoSwitch' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+11:26:23.985 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'DemoSwitch' for widget org.openhab.model.sitemap.Switch
+11:26:23.986 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'DemoSwitch' for widget org.openhab.model.sitemap.Switch
+11:26:25.215 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'DemoSwitch'
+org.openhab.core.items.ItemNotFoundException: Item 'DemoSwitch' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+11:26:25.217 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'DemoSwitch' for widget org.openhab.model.sitemap.Switch
+11:26:25.217 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'DemoSwitch' for widget org.openhab.model.sitemap.Switch
+11:26:25.846 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'DemoSwitch'
+org.openhab.core.items.ItemNotFoundException: Item 'DemoSwitch' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+11:26:25.847 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'DemoSwitch' for widget org.openhab.model.sitemap.Switch
+11:26:25.848 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'DemoSwitch' for widget org.openhab.model.sitemap.Switch
+11:26:46.981 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+11:27:00.028 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:27:06.995 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+11:27:37.006 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+11:28:00.028 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:28:17.019 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+11:29:00.028 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:30:00.050 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:30:00.064 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:31:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:32:00.027 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:33:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:34:00.031 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:35:00.030 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:35:00.049 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:36:00.031 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:37:00.041 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:38:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:39:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:40:00.042 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:40:00.065 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:41:00.027 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:42:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:43:00.033 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:44:00.040 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:45:00.055 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:45:00.068 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:46:00.031 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:47:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:48:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:49:00.041 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:50:00.054 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:50:00.068 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:51:00.040 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:52:00.033 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:53:00.031 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:54:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:55:00.059 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:55:00.069 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:56:00.041 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:57:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:58:00.027 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+11:59:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:00:00.054 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:00:00.067 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:01:00.040 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:02:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:03:00.031 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:04:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:05:00.029 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:05:00.048 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:06:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:07:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:08:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:09:00.025 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:10:00.029 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:10:00.048 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:11:00.031 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:12:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:13:00.024 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:13:37.337 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+12:14:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:14:37.401 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+12:15:00.029 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:15:00.052 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:15:47.473 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+12:16:00.030 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:17:00.033 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:18:00.026 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:19:00.027 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:19:47.552 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+12:20:00.029 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:20:00.048 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:20:17.613 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.items'
+12:20:37.669 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+12:20:57.678 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+12:21:00.036 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:21:57.720 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:22:00.046 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:22:29.647 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:22:41.602 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:23:00.027 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:24:00.021 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:24:33.483 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+12:24:35.611 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:24:35.612 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:24:35.612 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:24:53.495 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.sitemap'
+12:25:00.025 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:25:00.036 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:25:31.650 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:25:31.651 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:25:31.652 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:25:53.522 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:26:00.035 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:27:00.027 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:28:00.028 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:29:00.027 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:29:35.381 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:29:37.250 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:29:37.251 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:29:37.251 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:29:57.217 INFO  o.o.m.c.i.ModelRepositoryImpl[:117]- Refreshing model 'demo.rules'
+12:29:59.184 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:29:59.185 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:29:59.186 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:30:00.024 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Persistence Demo
+java.lang.RuntimeException: The name 'Weather_Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:30:00.046 ERROR o.o.m.r.i.e.ExecuteRuleJob[:77]- Error during the execution of rule Set random room temperatures
+java.lang.RuntimeException: The name 'Temperature' cannot be resolved to an item or type.
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:87)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+12:30:01.468 WARN  o.o.u.w.i.r.SwitchRenderer[:90]- Cannot determine item type of 'Shutters'
+org.openhab.core.items.ItemNotFoundException: Item 'Shutters' could not be found in the item registry
+	at org.openhab.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:100)
+	at org.openhab.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:513)
+	at org.openhab.ui.webapp.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:77)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.renderWidget(PageRenderer.java:174)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:141)
+	at org.openhab.ui.webapp.internal.render.PageRenderer.processChildren(PageRenderer.java:158)
+12:30:01.469 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:30:01.469 ERROR o.o.u.i.i.ItemUIRegistryImpl[:406]- Cannot retrieve item 'Shutters' for widget org.openhab.model.sitemap.Switch
+12:30:03.991 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+12:30:05.234 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Front'
+12:30:06.429 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:30:07.461 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Front'
+12:30:08.186 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'DECREASE' for item 'Shutter_Back'
+12:30:08.890 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Back'
+12:30:09.046 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Back'
+12:30:09.227 WARN  o.o.u.w.i.servlet.CmdServlet[:117]- Received unknown command 'INCREASE' for item 'Shutter_Back'
