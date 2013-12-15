@@ -6,7 +6,7 @@ var Number counter = 1
 var Number counter5 = 1
 var Number counter10 = 1
 var Number luminosity = 0
-var Number shutdown = 0
+var Number shutdown = 1
 var Timer timer = null
 
 rule Startup
@@ -44,12 +44,37 @@ end
 
 rule "Lights off"
 	when
-		Time cron "0 0 20 ? * MON-FRI" // every day of the week at 20:00:00 pm
+		Time cron "0/32 * * * * ?"//"0 0 20 ? * MON-FRI" // every day of the week at 20:00:00
 	then
 		postUpdate(Automatic_Luminosity, OFF)
 		sendCommand(Light_Front, OFF)
 		sendCommand(Light_Back, OFF)
 		shutdown = 0
+		say("Lights shut down")
+end
+
+rule "Lights can be on"
+	when
+		Time cron "5/32 * * * * ?"//"0 0 7 ? * MON-FRI" // every day of the week at 7:00:00
+	then
+		shutdown = 1
+		say("Lights can be on")
+end
+
+rule "Lights on"
+	when
+		Item Door_Front received update OPEN or
+		Item Door_Back received update OPEN
+	then
+		if (shutdown == 1) {
+			shutdown = 2
+			postUpdate(Automatic_Luminosity, ON)
+			sendCommand(Light_Front, ON)
+			sendCommand(Light_Back, ON)
+			say("Lights on!")
+		} else if (shutdown == 0) {
+			say("ALARM!")
+		}
 end
 
 rule "Open Door"

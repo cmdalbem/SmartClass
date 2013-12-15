@@ -7,6 +7,10 @@ Group:Switch:OR(ON, OFF) 		Lights 		"LEDs [(%d)]" 								(All)
 Group:Switch:OR(UP, DOWN) 		Shutters 		"Volets [(%d)]" 								(All)
 Group:Contact:OR(OPEN, CLOSED) 	Windows 	"Open windows [(%d)]"				<contact>		(All)
 
+Number Luminosity "Luminosity [%d %%]" (GF_Class)
+
+Switch Automatic_Luminosity "Automatic Luminosity" (GF_Class)
+
 /* Lights */
 Dimmer Light_Front 	"Front [%d %%]" 	(GF_Class, Lights)
 Dimmer Light_Back 	"Back [%d %%]"	(GF_Class, Lights)
@@ -14,24 +18,21 @@ Dimmer Light_Back 	"Back [%d %%]"	(GF_Class, Lights)
 Color Color_Light_Front 	"Color Front"	(GF_Class)
 Color Color_Light_Back 	"Color Back"		(GF_Class)
 
-Switch Automatic_Luminosity "Automatic Luminosity" (GF_Class)
-
-/* Doors */
-Contact Door_Front 	"Frontdoor [MAP(en.map):%s]"	<door>	(GF_Class, Doors)
-Contact Door_Back 	"Backdoor [MAP(en.map):%s]"	<door>	(GF_Class, Doors)
-
 /* Rollershutters */
 Switch Shutter_all (Shutters)
 
 Rollershutter Shutter_Front 		"Front"		(GF_Class, Shutters)
 Rollershutter Shutter_Back 		"Back"		(GF_Class, Shutters)
 
+/* Doors */
+Contact Door_Front 	"Frontdoor [MAP(en.map):%s]"	<door>	(GF_Class, Doors)
+Contact Door_Back 	"Backdoor [MAP(en.map):%s]"	<door>	(GF_Class, Doors)
+
 /* NTP binding demo item */
 DateTime		Date			"Date [%1$tA, %1$td.%1$tm.%1$tY]"	<calendar>	{ ntp="Europe/Paris:fr_FR" }
 
 Number Scene_General			"Scene"					<sofa>
 
-Number Luminosity "Luminosity [%d %%]" (GF_Class)
 
 /* Arduino items */
 
