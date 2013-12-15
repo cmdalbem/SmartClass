@@ -3,7 +3,10 @@ import org.openhab.core.persistence.*
 import org.openhab.model.script.actions.*
 
 var Number counter = 1
+var Number counter5 = 1
+var Number counter10 = 1
 var Number luminosity = 0
+var Number shutdown = 0
 var Timer timer = null
 
 rule Startup
@@ -25,6 +28,8 @@ when
 	System started
 then
 	postUpdate(Luminosity, 50)
+	postUpdate(Door_Front, CLOSED)
+	postUpdate(Door_Back, CLOSED)
 end
 
 rule "Crontest"
@@ -35,9 +40,33 @@ rule "Crontest"
 		luminosity = luminosity - 1
 		postUpdate(Luminosity, luminosity)
 		counter = counter + 1
-			
-		
+end
+
+rule "Lights off"
+	when
+		Time cron "0 0 20 ? * MON-FRI" // every day of the week at 20:00:00 pm
+	then
+		postUpdate(Automatic_Luminosity, OFF)
+		sendCommand(Light_Front, OFF)
+		sendCommand(Light_Back, OFF)
+		shutdown = 0
+end
+
+rule "Open Door"
+	when 
+		Time cron "0/4 * * * * ?"
+	then
+		postUpdate(Door_Front, CLOSED)
+		postUpdate(Door_Back, OPEN)
 end	
+
+rule "Close Door"
+	when 
+		Time cron "2/4 * * * * ?"
+	then
+		postUpdate(Door_Front, OPEN)
+		postUpdate(Door_Back, CLOSED)
+end
 
 rule "To much lights"
 	when
@@ -99,14 +128,28 @@ rule "Color Light Back"
         var Number greenValue = hsbValue.green.intValue
         var Number blueValue  = hsbValue.blue.intValue
         
-        say(redValue)
-        say(greenValue)
-        say(blueValue)
+        if (redValue == 100 && greenValue == 0 && blueValue == 0) {
+        	//say("Red")
+        } if (redValue == 100 && greenValue == 50 && blueValue == 0) {
+        	//say("Orange")
+        } else if (redValue == 0 && greenValue == 100 && blueValue == 0) {
+        	//say("Green")
+        } else if (redValue == 0 && greenValue == 0 && blueValue == 100) {
+        	//say("Blue")
+        } else if (redValue == 100 && greenValue == 100 && blueValue == 100) {
+        	//say("White")
+        } else {
+        	//say("Color")
+        	//say(redValue)
+        	//say(greenValue)
+        	//say(blueValue)
+        	sendCommand(Scene_General, 0)
+        }
         /*sendCommand( LedR, redValue )
         sendCommand( LedG, greenValue )
         sendCommand( LedB, blueValue )*/
 end
-rule "Color Light Back"
+rule "Color Light Front"
 	when
 		Item Color_Light_Front received command
 	then
@@ -116,9 +159,23 @@ rule "Color Light Back"
         var Number greenValue = hsbValue.green.intValue
         var Number blueValue  = hsbValue.blue.intValue
         
-        say(redValue)
-        say(greenValue)
-        say(blueValue)
+        if (redValue == 100 && greenValue == 0 && blueValue == 0) {
+        	say("Red")
+        } if (redValue == 100 && greenValue == 50 && blueValue == 0) {
+        	say("Orange")
+        } else if (redValue == 0 && greenValue == 100 && blueValue == 0) {
+        	say("Green")
+        } else if (redValue == 0 && greenValue == 0 && blueValue == 100) {
+        	say("Blue")
+        } else if (redValue == 100 && greenValue == 100 && blueValue == 100) {
+        	say("White")
+        } else {
+        	say("Color")
+        	say(redValue)
+        	say(greenValue)
+        	say(blueValue)
+        	sendCommand(Scene_General, 0)
+        }
         /*sendCommand( LedR, redValue )
         sendCommand( LedG, greenValue )
         sendCommand( LedB, blueValue )*/
@@ -155,6 +212,52 @@ rule "Dimmed Shutter Back Down"
 		say("Back Down")
 		// Todo : send a command to the motor
 		
+end
+
+rule "Scene changing"
+	when
+		Item Scene_General received command
+	then
+		var Number scene = 0
+		if(Scene_General.state instanceof DecimalType) scene = Scene_General.state as DecimalType
+		
+		var H = 0
+		var S = 0
+		var B = 0
+        
+		switch(scene) {
+			case 0 : {
+				// nothing
+			}
+			case 1 : {
+				// White: during a course
+				H = 0
+				S = 0
+				B = 100
+			}
+			case 2 : {
+				// Orange/Yellow: conference
+				H = 30
+				S = 100
+				B = 100
+			}
+			case 3 : {
+				// Blue: before exam
+				H = 240
+				S = 100
+				B = 100
+			}
+			case 4 : {
+				// Green: during exam
+				H = 120
+				S = 100
+				B = 100
+			}
+		}
+		if (scene != 0) {
+			sendCommand(Color_Light_Back, H+","+S+","+B)
+			sendCommand(Color_Light_Front, H+","+S+","+B)	
+		}
 end
 
 /**

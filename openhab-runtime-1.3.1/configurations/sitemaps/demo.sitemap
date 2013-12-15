@@ -7,7 +7,7 @@ sitemap demo label="Main Menu"
 		Text item=Date
 	}
 	Frame label="Ambiance" {
-		Switch item=Scene_General label="Selection d'ambiance" mappings=[1=Exam, 2=Lecture, 3=Sleeping]
+		Switch item=Scene_General label="Selection d'ambiance" mappings=[1=Course, 2=Conference, 3="Before Exam", 4=Exam]
 	}
 	Frame label="Lumières" {
 		Switch item=Lights mappings=[OFF="All Off"]
