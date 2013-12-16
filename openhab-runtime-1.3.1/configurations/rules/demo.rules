@@ -162,6 +162,8 @@ rule "Color Light Back"
         var Number greenValue = hsbValue.green.intValue
         var Number blueValue  = hsbValue.blue.intValue
         
+	
+	
         if (redValue == 100 && greenValue == 0 && blueValue == 0) {
         	//say("Red")
         } if (redValue == 100 && greenValue == 50 && blueValue == 0) {
@@ -179,9 +181,6 @@ rule "Color Light Back"
         	//say(blueValue)
         	sendCommand(Scene_General, 0)
         }
-        /*sendCommand( LedR, redValue )
-        sendCommand( LedG, greenValue )
-        sendCommand( LedB, blueValue )*/
 end
 rule "Color Light Front"
 	when
@@ -192,27 +191,10 @@ rule "Color Light Front"
         var Number redValue   = hsbValue.red.intValue
         var Number greenValue = hsbValue.green.intValue
         var Number blueValue  = hsbValue.blue.intValue
+        sendCommand( ArduinoController, redValue )
+        sendCommand( ArduinoController, greenValue )
+        sendCommand( ArduinoController, blueValue )
         
-        if (redValue == 100 && greenValue == 0 && blueValue == 0) {
-        	say("Red")
-        } if (redValue == 100 && greenValue == 50 && blueValue == 0) {
-        	say("Orange")
-        } else if (redValue == 0 && greenValue == 100 && blueValue == 0) {
-        	say("Green")
-        } else if (redValue == 0 && greenValue == 0 && blueValue == 100) {
-        	say("Blue")
-        } else if (redValue == 100 && greenValue == 100 && blueValue == 100) {
-        	say("White")
-        } else {
-        	say("Color")
-        	say(redValue)
-        	say(greenValue)
-        	say(blueValue)
-        	sendCommand(Scene_General, 0)
-        }
-        /*sendCommand( LedR, redValue )
-        sendCommand( LedG, greenValue )
-        sendCommand( LedB, blueValue )*/
 end
 
 rule "Dimmed Shutter Front Up"
@@ -314,14 +296,12 @@ rule turnLightOn
 when Item Light_Arduino changed from ON to OFF
 
 then 
-	sendCommand(ArduinoController,"a\r\n")
+	sendCommand(ArduinoController,"abc\r\n")
 end
 
 rule turnLightOff
 when Item Light_Arduino changed from OFF to ON
 
 then
-	sendCommand(ArduinoController,"b\r\n")
+	sendCommand(ArduinoController,"abc\r\n")
 end	
-
-
