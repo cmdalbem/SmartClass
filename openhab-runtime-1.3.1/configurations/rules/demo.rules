@@ -305,14 +305,14 @@ rule turnLightOn
 when Item Light_Arduino changed from ON to OFF
 
 then 
-	sendCommand(ArduinoController,"a")
+	sendCommand(ArduinoController,"a\r\n")
 end
 
 rule turnLightOff
 when Item Light_Arduino changed from OFF to ON
 
 then
-	sendCommand(ArduinoController,"b")
+	sendCommand(ArduinoController,"b\r\n")
 end	
 
 
