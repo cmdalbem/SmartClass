@@ -44,7 +44,7 @@ end
 
 rule "Lights off"
 	when
-		Time cron "0/32 * * * * ?"//"0 0 20 ? * MON-FRI" // every day of the week at 20:00:00
+		Time cron "0 0 20 ? * MON-FRI" // every day of the week at 20:00:00
 	then
 		postUpdate(Automatic_Luminosity, OFF)
 		sendCommand(Light_Front, OFF)
@@ -55,7 +55,7 @@ end
 
 rule "Lights can be on"
 	when
-		Time cron "5/32 * * * * ?"//"0 0 7 ? * MON-FRI" // every day of the week at 7:00:00
+		Time cron "0 0 7 ? * MON-FRI" // every day of the week at 7:00:00
 	then
 		shutdown = 1
 		say("Lights can be on")
@@ -91,6 +91,15 @@ rule "Close Door"
 	then
 		postUpdate(Door_Front, OPEN)
 		postUpdate(Door_Back, CLOSED)
+end
+
+rule "Mouvement Detection"
+	when
+		Item Mouvement_Detector received update
+	then
+		if (Mouvement_Detector.state==ON) {
+			say("Mouvement!")
+		}
 end
 
 rule "To much lights"

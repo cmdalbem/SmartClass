@@ -7,6 +7,9 @@ Group:Switch:OR(ON, OFF) 		Lights 		"LEDs [(%d)]" 								(All)
 Group:Switch:OR(UP, DOWN) 		Shutters 		"Volets [(%d)]" 								(All)
 Group:Contact:OR(OPEN, CLOSED) 	Windows 	"Open windows [(%d)]"				<contact>		(All)
 
+Switch Professor_Presence "Présence du professeur" (GF_Class)
+Switch Mouvement_Detector "Présence de personnes" (GF_Class)
+
 Number Luminosity "Luminosity [%d %%]" (GF_Class)
 
 Switch Automatic_Luminosity "Automatic Luminosity" (GF_Class)
