@@ -192,7 +192,7 @@ rule "Color Light Front"
         var Number redValue   = hsbValue.red.intValue
         var Number greenValue = hsbValue.green.intValue
         var Number blueValue  = hsbValue.blue.intValue
-        var String res = redValue + ":" + greenValue + ":" + blueValue 
+        var String res = redValue + ":" + greenValue + ":" + blueValue + ":"
         sendCommand( ArduinoController, res )
         //sendMail("julien.fleury@ensimag.grenoble-inp.fr", "Alarm : Intrusion in classroom", "An intrusion has been seen in the classroom. Please check ")
         
