@@ -191,9 +191,8 @@ rule "Color Light Front"
         var Number redValue   = hsbValue.red.intValue
         var Number greenValue = hsbValue.green.intValue
         var Number blueValue  = hsbValue.blue.intValue
-        sendCommand( ArduinoController, redValue )
-        sendCommand( ArduinoController, greenValue )
-        sendCommand( ArduinoController, blueValue )
+        var String res = redValue + ":" + greenValue + ":" + blueValue 
+        sendCommand( ArduinoController, res )
         
 end
 
