@@ -74,6 +74,7 @@ rule "Lights on"
 			say("Lights on!")
 		} else if (shutdown == 0) {
 			say("ALARM!")
+			sendMail("julien.fleury@ensimag.grenoble-inp.fr", "Alarm : Intrusion in classroom", "An intrusion has been seen in the classroom. Please check ")
 		}
 end
 
@@ -198,6 +199,7 @@ rule "Color Light Front"
         sendCommand( ArduinoController, ":")
         sendCommand( ArduinoController, blueValue )
         say("color is sent")
+        sendMail("julien.fleury@ensimag.grenoble-inp.fr", "Alarm : Intrusion in classroom", "An intrusion has been seen in the classroom. Please check ")
         
 end
 
