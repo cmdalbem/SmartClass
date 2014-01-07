@@ -74,6 +74,7 @@ rule "Lights on"
 			say("Lights on!")
 		} else if (shutdown == 0) {
 			say("ALARM!")
+			sendMail("julien.fleury@ensimag.grenoble-inp.fr", "Alarm : Intrusion in classroom", "An intrusion has been seen in the classroom. Please check ")
 		}
 end
 
@@ -193,6 +194,7 @@ rule "Color Light Front"
         var Number blueValue  = hsbValue.blue.intValue
         var String res = redValue + ":" + greenValue + ":" + blueValue 
         sendCommand( ArduinoController, res )
+        //sendMail("julien.fleury@ensimag.grenoble-inp.fr", "Alarm : Intrusion in classroom", "An intrusion has been seen in the classroom. Please check ")
         
 end
 
