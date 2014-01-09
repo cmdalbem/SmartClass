@@ -1,7 +1,8 @@
 import org.openhab.core.library.types.*
 import org.openhab.core.persistence.*
 import org.openhab.model.script.actions.*
-
+import java.lang.*
+var Integer lum = 0
 var Number counter = 1
 var Number counter5 = 1
 var Number counter10 = 1
@@ -192,8 +193,8 @@ rule "Color Light Front"
         var Number redValue   = hsbValue.red.intValue
         var Number greenValue = hsbValue.green.intValue
         var Number blueValue  = hsbValue.blue.intValue
-        var String res = redValue + ":" + greenValue + ":" + blueValue + ":"
-        sendCommand( ArduinoController, res )
+        var String res = "rgb:" + redValue + ":" + greenValue + ":" + blueValue + ":"
+        sendCommand( ArduinoControllerRGB, res )
         //sendMail("julien.fleury@ensimag.grenoble-inp.fr", "Alarm : Intrusion in classroom", "An intrusion has been seen in the classroom. Please check ")
         
 end
@@ -306,3 +307,23 @@ when Item Light_Arduino changed from OFF to ON
 then
 	sendCommand(ArduinoController,"abc\r\n")
 end	
+
+rule processSerial
+when Item ArduinoControllerLUM received update
+
+then
+		lum=0
+		if (ArduinoControllerLUM.state.toString().substring(0,3).equals("lum")) {
+			var i = 4
+			while (ArduinoControllerLUM.state.toString().charAt(i) != ":".charAt(0)) {
+				lum = lum * 10 + ArduinoControllerLUM.state.toString().charAt(i) - '0'.charAt(0)
+				i=i+1
+			}
+			println("LUMINOSITY")
+			println(lum)
+			
+		}
+		
+	
+end
+
