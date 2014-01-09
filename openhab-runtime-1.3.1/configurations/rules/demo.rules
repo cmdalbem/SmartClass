@@ -10,6 +10,8 @@ var Number luminosity = 0
 var Number shutdown = 1
 var Timer timer = null
 
+
+// Starting OpenHAB
 rule Startup
 when 
 	System started
@@ -17,6 +19,7 @@ then
 	say("Welcome at openHab!")
 end
 
+// Shutting down OpenHAB
 rule Goodbye
 when 
 	System shuts down
@@ -24,6 +27,8 @@ then
 	say("Good bye!")
 end
 
+
+// Initialize the scene 
 rule "Initialise luminosity"
 when
 	System started
@@ -33,6 +38,7 @@ then
 	postUpdate(Door_Back, CLOSED)
 end
 
+//  Change the lighting when time pass
 rule "Crontest"
 	when 
 		Time cron "0/4 * * * * ?"
@@ -43,6 +49,7 @@ rule "Crontest"
 		counter = counter + 1
 end
 
+// Day is over, school is closed, the light are disabled
 rule "Lights off"
 	when
 		Time cron "0 0 20 ? * MON-FRI" // every day of the week at 20:00:00
@@ -54,6 +61,7 @@ rule "Lights off"
 		say("Lights shut down")
 end
 
+// It's not the light, so the light can be switch on
 rule "Lights can be on"
 	when
 		Time cron "0 0 7 ? * MON-FRI" // every day of the week at 7:00:00
@@ -62,6 +70,7 @@ rule "Lights can be on"
 		say("Lights can be on")
 end
 
+// Control of the alarm
 rule "Lights on"
 	when
 		Item Door_Front received update OPEN or
@@ -79,6 +88,7 @@ rule "Lights on"
 		}
 end
 
+// Opening the doors and closing the doors 
 rule "Open Door"
 	when 
 		Time cron "0/4 * * * * ?"
@@ -95,6 +105,7 @@ rule "Close Door"
 		postUpdate(Door_Back, CLOSED)
 end
 
+// using the camera in order to detect movement in the room
 rule "Mouvement Detection"
 	when
 		Item Mouvement_Detector received update
@@ -104,7 +115,7 @@ rule "Mouvement Detection"
 		}
 end
 
-rule "To much lights"
+rule "Too much lights"
 	when
 		Item Luminosity received update
 	then
@@ -184,6 +195,9 @@ rule "Color Light Back"
         	sendCommand(Scene_General, 0)
         }
 end
+
+
+// Serial control of the RGB led with the use of the OpenHAB 
 rule "Color Light Front"
 	when
 		Item Color_Light_Front received command
@@ -308,7 +322,8 @@ then
 	sendCommand(ArduinoController,"abc\r\n")
 end	
 
-rule processSerial
+// Get the luminosity from the arduino sensor 
+rule controlLuminosity
 when Item ArduinoControllerLUM received update
 
 then
