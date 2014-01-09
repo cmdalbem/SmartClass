@@ -74,7 +74,10 @@ rule "Lights on"
 			say("Lights on!")
 		} else if (shutdown == 0) {
 			say("ALARM!")
-			sendMail("julien.fleury@ensimag.grenoble-inp.fr", "Alarm : Intrusion in classroom", "An intrusion has been seen in the classroom. Please check ")
+			sendMail("julien.fleury@ensimag.grenoble-inp.fr",
+				"Alarm : Intrusion in classroom", 
+				"An intrusion has been seen in the classroom."
+			)
 		}
 end
 
@@ -103,7 +106,7 @@ rule "Mouvement Detection"
 		}
 end
 
-rule "To much lights"
+rule "Too much lights"
 	when
 		Item Luminosity received update
 	then

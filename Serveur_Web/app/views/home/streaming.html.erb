@@ -1,0 +1,43 @@
+<h1>Streaming du cours</h1>
+<div id="stream_active" style="display:none">
+<applet name="cvcs" codeBase="http://ensicam01.imag.fr:80" archive="aplug.jar" code="aplug.class" width=320 height=240>
+<param name="RemotePort" value=80>
+<param name="Timeout" value=5000>
+<param name="RotateAngle" value=0>
+<param name="PreviewFrameRate" value=2>
+<param name="Algorithm" value="1">
+<param name="DeviceSerialNo" value="YWRtaW46U21hcnRDbGFzcw==">
+</applet>
+</div>
+
+<div id="stream_inactive">
+Le cours n'a pas encore commencé.
+</div>
+<div class="result"></div>
+
+<script>
+  var active = false;
+  function enable () {
+    if (!active) {
+      active = true;
+      $("#stream_inactive").hide();
+      $("#stream_active").show();
+    }
+  };
+  function disable () {
+    if (active) {
+      active = false;
+      $("#stream_active").hide();
+      $("#stream_inactive").show();
+    }
+  };
+  setInterval(function() {
+    $.get( "stream_active", null, function( data ) {
+      if (data) {
+        enable();
+      } else {
+        disable();
+      };
+    }, "json");
+  }, 2000);
+</script>
