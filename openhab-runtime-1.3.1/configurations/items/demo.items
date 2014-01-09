@@ -40,7 +40,10 @@ Number Scene_General			"Scene"					<sofa>
 /* Arduino items */
 
 Switch Light_Arduino "Arduino" (GF_Class) 
-String ArduinoController "ArduinoController [%s] " (GF_Class) {serial="/dev/ttyACM0"} 
+
+String ArduinoController "ArduinoController[%s]" (GF_Class) 
+String ArduinoControllerRGB "ArduinoControllerRGB [%s] " (GF_Class) {serial="/dev/tty.usbmodem14231"} 
+String ArduinoControllerLUM "ArduinoControllerLUM [%s] " (GF_Class) {serial="/dev/tty.usbmodem14241"} 
 String Luminosity_Arduino "lala" (GF_Class) 
 
 

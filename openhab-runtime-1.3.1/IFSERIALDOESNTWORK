@@ -1,0 +1,5 @@
+check if the serial item in demo.items is /dev/ttyACM0
+check if you have plugged the arduino on the good usb port (/dev/ttyACM0 is up, you can also see if it is the good one in the /dev/serial folder)
+check if the serial port specified in start.sh (in the big line calling java) is ttyACM0
+
+

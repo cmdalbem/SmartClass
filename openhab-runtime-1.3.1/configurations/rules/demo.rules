@@ -1,7 +1,8 @@
 import org.openhab.core.library.types.*
 import org.openhab.core.persistence.*
 import org.openhab.model.script.actions.*
-
+import java.lang.*
+var Integer lum = 0
 var Number counter = 1
 var Number counter5 = 1
 var Number counter10 = 1
@@ -9,6 +10,8 @@ var Number luminosity = 0
 var Number shutdown = 1
 var Timer timer = null
 
+
+// Starting OpenHAB
 rule Startup
 when 
 	System started
@@ -16,6 +19,7 @@ then
 	say("Welcome at openHab!")
 end
 
+// Shutting down OpenHAB
 rule Goodbye
 when 
 	System shuts down
@@ -23,6 +27,8 @@ then
 	say("Good bye!")
 end
 
+
+// Initialize the scene 
 rule "Initialise luminosity"
 when
 	System started
@@ -32,6 +38,7 @@ then
 	postUpdate(Door_Back, CLOSED)
 end
 
+//  Change the lighting when time pass
 rule "Crontest"
 	when 
 		Time cron "0/4 * * * * ?"
@@ -42,6 +49,7 @@ rule "Crontest"
 		counter = counter + 1
 end
 
+// Day is over, school is closed, the light are disabled
 rule "Lights off"
 	when
 		Time cron "0 0 20 ? * MON-FRI" // every day of the week at 20:00:00
@@ -53,6 +61,7 @@ rule "Lights off"
 		say("Lights shut down")
 end
 
+// It's not the light, so the light can be switch on
 rule "Lights can be on"
 	when
 		Time cron "0 0 7 ? * MON-FRI" // every day of the week at 7:00:00
@@ -61,6 +70,7 @@ rule "Lights can be on"
 		say("Lights can be on")
 end
 
+// Control of the alarm
 rule "Lights on"
 	when
 		Item Door_Front received update OPEN or
@@ -81,6 +91,7 @@ rule "Lights on"
 		}
 end
 
+// Opening the doors and closing the doors 
 rule "Open Door"
 	when 
 		Time cron "0/4 * * * * ?"
@@ -97,6 +108,7 @@ rule "Close Door"
 		postUpdate(Door_Back, CLOSED)
 end
 
+// using the camera in order to detect movement in the room
 rule "Mouvement Detection"
 	when
 		Item Mouvement_Detector received update
@@ -186,6 +198,9 @@ rule "Color Light Back"
         	sendCommand(Scene_General, 0)
         }
 end
+
+
+// Serial control of the RGB led with the use of the OpenHAB 
 rule "Color Light Front"
 	when
 		Item Color_Light_Front received command
@@ -195,14 +210,9 @@ rule "Color Light Front"
         var Number redValue   = hsbValue.red.intValue
         var Number greenValue = hsbValue.green.intValue
         var Number blueValue  = hsbValue.blue.intValue
-        sendCommand( ArduinoController, "z")
-        sendCommand( ArduinoController, redValue )
-        sendCommand( ArduinoController, ":")
-        sendCommand( ArduinoController, greenValue )
-        sendCommand( ArduinoController, ":")
-        sendCommand( ArduinoController, blueValue )
-        say("color is sent")
-        sendMail("julien.fleury@ensimag.grenoble-inp.fr", "Alarm : Intrusion in classroom", "An intrusion has been seen in the classroom. Please check ")
+        var String res = "rgb:" + redValue + ":" + greenValue + ":" + blueValue + ":"
+        sendCommand( ArduinoControllerRGB, res )
+        //sendMail("julien.fleury@ensimag.grenoble-inp.fr", "Alarm : Intrusion in classroom", "An intrusion has been seen in the classroom. Please check ")
         
 end
 
@@ -314,3 +324,24 @@ when Item Light_Arduino changed from OFF to ON
 then
 	sendCommand(ArduinoController,"abc\r\n")
 end	
+
+// Get the luminosity from the arduino sensor 
+rule controlLuminosity
+when Item ArduinoControllerLUM received update
+
+then
+		lum=0
+		if (ArduinoControllerLUM.state.toString().substring(0,3).equals("lum")) {
+			var i = 4
+			while (ArduinoControllerLUM.state.toString().charAt(i) != ":".charAt(0)) {
+				lum = lum * 10 + ArduinoControllerLUM.state.toString().charAt(i) - '0'.charAt(0)
+				i=i+1
+			}
+			println("LUMINOSITY")
+			println(lum)
+			
+		}
+		
+	
+end
+
