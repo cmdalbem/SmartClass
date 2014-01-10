@@ -1,6 +1,6 @@
 <h1>Streaming du cours</h1>
 <div id="stream_active" style="display:none">
-<applet name="cvcs" codeBase="http://ensicam01.imag.fr:80" archive="aplug.jar" code="aplug.class" width=320 height=240>
+<applet name="cvcs" codeBase="http://192.168.42.15" archive="aplug.jar" code="aplug.class" width=320 height=240>
 <param name="RemotePort" value=80>
 <param name="Timeout" value=5000>
 <param name="RotateAngle" value=0>
@@ -10,29 +10,34 @@
 </applet>
 </div>
 
-<div id="stream_inactive">
+<div id="stream_inactive" style="display:none">
 Le cours n'a pas encore commencé.
+</div>
+<div id="loading">
+Chargement...
 </div>
 <div class="result"></div>
 
 <script>
-  var active = false;
+  var active = -1;
   function enable () {
-    if (!active) {
-      active = true;
+    if (active != 1) {
+      active = 1;
+      $("#loading").hide();
       $("#stream_inactive").hide();
       $("#stream_active").show();
     }
   };
   function disable () {
-    if (active) {
-      active = false;
+    if (active != 0) {
+      active = 0;
+      $("#loading").hide();
       $("#stream_active").hide();
       $("#stream_inactive").show();
     }
   };
   setInterval(function() {
-    $.get( "stream_active", null, function( data ) {
+    $.get( "/stream_active", null, function( data ) {
       if (data) {
         enable();
       } else {

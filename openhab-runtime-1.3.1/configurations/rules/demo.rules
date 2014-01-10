@@ -88,6 +88,20 @@ rule "Mouvement Detection"
 		}
 end
 
+rule "Professor scan tag"
+	when
+		Item Professor_Presence received update ON
+	then
+		sendHttpGetRequest("http://192.168.42.1:1000/active_stream?on=true")
+end
+
+rule "End of course"
+	when
+		Item Professor_Presence received update OFF
+	then
+		sendHttpGetRequest("http://192.168.42.1:1000/active_stream?on=false")
+end
+
 /**
  * This is a demo rule which simulates a real dimmer by reacting to increase/decrease commands 
  * and posting an updated state on the bus 
@@ -149,8 +163,7 @@ rule "Color Light Front"
         var Number blueValue  = hsbValue.blue.intValue
         var String res = "rgb:" + redValue + ":" + greenValue + ":" + blueValue + ":"
         sendCommand( ArduinoControllerRGB, res )
-        //sendMail("julien.fleury@ensimag.grenoble-inp.fr", "Alarm : Intrusion in classroom", "An intrusion has been seen in the classroom. Please check ")
-        
+        sendMail("julien.fleury@ensimag.grenoble-inp.fr", "Alarm : Intrusion in classroom", "An intrusion has been seen in the classroom. Please check ")
 end
 
 rule "Dimmed Shutter Front Up"
