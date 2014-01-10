@@ -34,7 +34,8 @@ class HomeController < ApplicationController
       RestClient.put @presence_adr, "ON", {:content_type => 'text/plain'}
     else
       # Mac adress isn't recognized, it's not a professor but a student
-      redirect_to "https://www.google.com/calendar/render?pli=1" # TODO : Set the calendar here
+      render :json => "https://www.google.com/calendar/render?pli=1" # TODO : Set the calendar here
+      #redirect_to "https://www.google.com/calendar/render?pli=1" 
     end
   end
   

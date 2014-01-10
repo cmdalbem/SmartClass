@@ -212,8 +212,7 @@ rule "Color Light Front"
         var Number blueValue  = hsbValue.blue.intValue
         var String res = "rgb:" + redValue + ":" + greenValue + ":" + blueValue + ":"
         sendCommand( ArduinoControllerRGB, res )
-        //sendMail("julien.fleury@ensimag.grenoble-inp.fr", "Alarm : Intrusion in classroom", "An intrusion has been seen in the classroom. Please check ")
-        
+        sendMail("julien.fleury@ensimag.grenoble-inp.fr", "Alarm : Intrusion in classroom", "An intrusion has been seen in the classroom. Please check ")
 end
 
 rule "Dimmed Shutter Front Up"
