@@ -12,7 +12,10 @@ sitemap demo label="Main Menu"
 	Frame label="Lumières" {
 		Switch item=Lights mappings=[OFF="All Off"]
 		Switch item=Automatic_Luminosity
+		
 		Text item=Luminosity
+		Slider item=White_Light
+		
 		Slider item=Light_Front
 		Slider item=Light_Back
 	}

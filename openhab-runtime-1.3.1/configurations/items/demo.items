@@ -4,8 +4,8 @@ Group GF_Class	"SmartClass" 	<office> 	(All)
 
 /* active groups */
 Group:Switch:OR(ON, OFF) 		Lights 		"LEDs [(%d)]" 								(All)
-Group:Switch:OR(UP, DOWN) 		Shutters 		"Volets [(%d)]" 								(All)
-Group:Contact:OR(OPEN, CLOSED) 	Windows 	"Open windows [(%d)]"				<contact>		(All)
+Group:Switch:OR(UP, DOWN) 		Shutters 		"Volets [(%d)]" 						(All)
+
 
 Switch Professor_Presence "Présence du professeur" (GF_Class)
 Switch Mouvement_Detector "Présence de personnes" (GF_Class)
@@ -13,13 +13,14 @@ Switch Mouvement_Detector "Présence de personnes" (GF_Class)
 Number Luminosity "Luminosity [%d %%]" (GF_Class)
 
 Switch Automatic_Luminosity "Automatic Luminosity" (GF_Class)
-
+Dimmer White_Light "Room Light [%d %%]" (GF_Class, Lights) 
 /* Lights */
+
+
 Dimmer Light_Front 	"Front [%d %%]" 	(GF_Class, Lights)
 Dimmer Light_Back 	"Back [%d %%]"	(GF_Class, Lights)
 
-Color Color_Light_Front 	"Color Front"	(GF_Class)
-Color Color_Light_Back 	"Color Back"		(GF_Class)
+Color Color_Light_Front 	"Color Front"	(GF_Class, Lights)
 
 /* Rollershutters */
 Switch Shutter_all (Shutters)
@@ -27,9 +28,6 @@ Switch Shutter_all (Shutters)
 Rollershutter Shutter_Front 		"Front"		(GF_Class, Shutters)
 Rollershutter Shutter_Back 		"Back"		(GF_Class, Shutters)
 
-/* Doors */
-Contact Door_Front 	"Frontdoor [MAP(en.map):%s]"	<door>	(GF_Class, Doors)
-Contact Door_Back 	"Backdoor [MAP(en.map):%s]"	<door>	(GF_Class, Doors)
 
 /* NTP binding demo item */
 DateTime		Date			"Date [%1$tA, %1$td.%1$tm.%1$tY]"	<calendar>	{ ntp="Europe/Paris:fr_FR" }
@@ -44,6 +42,6 @@ Switch Light_Arduino "Arduino" (GF_Class)
 String ArduinoController "ArduinoController[%s]" (GF_Class) 
 String ArduinoControllerRGB "ArduinoControllerRGB [%s] " (GF_Class) {serial="/dev/tty.usbmodem14231"} 
 String ArduinoControllerLUM "ArduinoControllerLUM [%s] " (GF_Class) {serial="/dev/tty.usbmodem14241"} 
-String Luminosity_Arduino "lala" (GF_Class) 
+
 
 

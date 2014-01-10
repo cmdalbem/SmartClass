@@ -44,8 +44,24 @@ void loop()
     third = Serial.read();
     fourth = Serial.read();
 
+    // manual
+    if (first == 'm' && second == 'm' && third == 'm' && fourth == ':') {
+      inByte = Serial.read();
+      while (inByte != ':') {
+        // while we are reading the first serial value
+        val= val*10 + inByte - '0';
+        inByte = Serial.read(); 
+      }
+      int mapped_val = map(val, 0, 1024, 0, 255);
+      Serial.println(mapped_val);
+      Serial.println("VAL");
+      Serial.println(val);
+      valFade = mapped_val;
+      analogWrite(Blanc, valFade);
+    }
+    
     // white 
-    if (first == 'w' && second == 'w' && third == 'w' && fourth == ':') {
+    else if (first == 'w' && second == 'w' && third == 'w' && fourth == ':') {
       inByte= Serial.read();
       while (inByte != ':') {
         // while we are reading the first serial value
@@ -53,40 +69,30 @@ void loop()
         inByte = Serial.read(); 
       }
 
+      int mapped_val = map(val, 0, 1024, 0, 255);
+      if(val >= 320) { //turn on
+       
+        if(mapped_val>valFade+20){	
 
-      if(val>=255){ //t.urn on
-      val = map(val, 0, 1024, 0, 255);
- 
-      Serial.println(val, DEC); // Scrivo il valore della fotoresistenza, espresso in numeri decimali  
-      if(val>valFade+20){	
-
-      for(;valFade<val;valFade++){
-        analogWrite(Blanc, valFade);  
-        delay(10);
-      }
+          for(;valFade<mapped_val;valFade++){
+            analogWrite(Blanc, valFade);  
+            delay(10);
+          }
 
 
-    } else if(val<valFade-20){
-      for(;valFade>val;valFade--){
-        analogWrite(Blanc, valFade);  
-        delay(10);
-      }
-    }
-
-  }
-  else //turn off 
-  {
-    while(valFade>0){
-      valFade--;
-      analogWrite(Blanc, valFade);  
-      delay(10);
-
-    }
-    val=0;
-
-  }    
-
-
+        } else if ( mapped_val < valFade - 20 ) {
+          for(; valFade > mapped_val; valFade--) {
+          analogWrite(Blanc, valFade);  
+          delay(10);
+          }
+        }
+      } else { //turn off
+        while ( valFade>0 ) {
+          valFade--;
+          analogWrite(Blanc, valFade);  
+          delay(10);
+        }
+      }    
     }
 
 
