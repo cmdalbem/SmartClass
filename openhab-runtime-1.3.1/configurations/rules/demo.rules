@@ -108,6 +108,20 @@ rule "Mouvement Detection"
 		}
 end
 
+rule "Professor scan tag"
+	when
+		Item Professor_Presence received update ON
+	then
+		sendHttpGetRequest("http://192.168.42.1:1000/active_stream?on=true")
+end
+
+rule "End of course"
+	when
+		Item Professor_Presence received update OFF
+	then
+		sendHttpGetRequest("http://192.168.42.1:1000/active_stream?on=false")
+end
+
 /* 
 rule "Too much lights"
 	when

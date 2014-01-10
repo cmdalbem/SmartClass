@@ -32,9 +32,10 @@ class HomeController < ApplicationController
         @presence_adr = Raspberry_Openhab+'Professor_Presence/state'
       end
       RestClient.put @presence_adr, "ON", {:content_type => 'text/plain'}
+      render :json => "OK"
     else
       # Mac adress isn't recognized, it's not a professor but a student
-      render :json => "https://www.google.com/calendar/render?pli=1" # TODO : Set the calendar here
+      render :json => "https://www.google.com/calendar/embed?src=cdobi02tvc96abm42o70egikr4%40group.calendar.google.com&ctz=Europe/Paris" # TODO : Set the calendar here
       #redirect_to "https://www.google.com/calendar/render?pli=1" 
     end
   end
