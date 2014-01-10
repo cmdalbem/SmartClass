@@ -3,12 +3,10 @@ import org.openhab.core.persistence.*
 import org.openhab.model.script.actions.*
 import java.lang.*
 var Integer lum = 0
-var Number counter = 1
-var Number counter5 = 1
-var Number counter10 = 1
-var Number luminosity = 0
+var Boolean autoLum = true
+
 var Number shutdown = 1
-var Timer timer = null
+
 
 
 // Starting OpenHAB
@@ -34,8 +32,6 @@ when
 	System started
 then
 	postUpdate(Luminosity, 50)
-	postUpdate(Door_Front, CLOSED)
-	postUpdate(Door_Back, CLOSED)
 end
 
 
@@ -81,22 +77,6 @@ rule "Lights on"
 		}
 end
 
-// Opening the doors and closing the doors 
-rule "Open Door"
-	when 
-		Time cron "0/4 * * * * ?"
-	then
-		postUpdate(Door_Front, CLOSED)
-		postUpdate(Door_Back, OPEN)
-end	
-
-rule "Close Door"
-	when 
-		Time cron "2/4 * * * * ?"
-	then
-		postUpdate(Door_Front, OPEN)
-		postUpdate(Door_Back, CLOSED)
-end
 
 // using the camera in order to detect movement in the room
 rule "Mouvement Detection"
@@ -107,25 +87,6 @@ rule "Mouvement Detection"
 			say("Mouvement!")
 		}
 end
-
-/* 
-rule "Too much lights"
-	when
-		Item Luminosity received update
-	then
-		if (Automatic_Luminosity.state == ON) {
-			if (Luminosity.state < 45) {
-				postUpdate(Luminosity, 50)
-				sendCommand(Light_Front, INCREASE)
-				sendCommand(Light_Back, INCREASE)
-			} else if (Luminosity.state > 55) {
-				postUpdate(Luminosity, 50)
-				sendCommand(Light_Front, DECREASE)
-				sendCommand(Light_Back, DECREASE)
-			}
-		}
-end
-*/
 
 /**
  * This is a demo rule which simulates a real dimmer by reacting to increase/decrease commands 
@@ -145,6 +106,7 @@ rule "Dimmed Light Front"
 		if(percent>100) percent = 100
 		postUpdate(Light_Front, percent);
 end
+
 rule "Dimmed Light Back"
 	when
 		Item Light_Back received command
@@ -160,37 +122,20 @@ rule "Dimmed Light Back"
 		postUpdate(Light_Back, percent);
 end
 
-rule "Color Light Back"
+rule "Room Light"
 	when
-		Item Color_Light_Back received command
+		Item White_Light received command
 	then
-		var HSBType hsbValue = Color_Light_Back.state as HSBType
+		var Number percent = 0
+		if(White_Light.state instanceof DecimalType) percent = White_Light.state as DecimalType 
+			
+		if(receivedCommand==INCREASE) percent = percent + 5
+		if(receivedCommand==DECREASE) percent = percent - 5
 
-        var Number redValue   = hsbValue.red.intValue
-        var Number greenValue = hsbValue.green.intValue
-        var Number blueValue  = hsbValue.blue.intValue
-        
-	
-	
-        if (redValue == 100 && greenValue == 0 && blueValue == 0) {
-        	//say("Red")
-        } if (redValue == 100 && greenValue == 50 && blueValue == 0) {
-        	//say("Orange")
-        } else if (redValue == 0 && greenValue == 100 && blueValue == 0) {
-        	//say("Green")
-        } else if (redValue == 0 && greenValue == 0 && blueValue == 100) {
-        	//say("Blue")
-        } else if (redValue == 100 && greenValue == 100 && blueValue == 100) {
-        	//say("White")
-        } else {
-        	//say("Color")
-        	//say(redValue)
-        	//say(greenValue)
-        	//say(blueValue)
-        	sendCommand(Scene_General, 0)
-        }
+		if(percent<0)   percent = 0
+		if(percent>100) percent = 100
+		postUpdate(White_Light, percent);
 end
-
 
 // Serial control of the RGB led with the use of the OpenHAB 
 rule "Color Light Front"
@@ -282,7 +227,6 @@ rule "Scene changing"
 			}
 		}
 		if (scene != 0) {
-			sendCommand(Color_Light_Back, H+","+S+","+B)
 			sendCommand(Color_Light_Front, H+","+S+","+B)	
 		}
 end
@@ -329,13 +273,30 @@ then
 				lum = lum * 10 + ArduinoControllerLUM.state.toString().charAt(i) - '0'.charAt(0)
 				i=i+1
 			}
-			println("LUMINOSITY")
-			println(lum/10);
 			postUpdate(Luminosity,lum/10)
-			var String res='www:' + lum/10 + ':'
-			sendCommand(ArduinoControllerRGB, res)
+			var String res='www:' + lum + ':'
+			if (autoLum) {
+				sendCommand(ArduinoControllerRGB, res)
+			}
 		}
 		
 	
 end
 
+rule autoLumOn
+when Item Automatic_Luminosity changed from OFF to ON
+then
+	autoLum = true
+end
+rule autoLumOff
+when Item Automatic_Luminosity changed from ON to OFF
+then
+	autoLum = false
+end
+
+rule manualLum
+when Item White_Light received update
+then
+	var String res = 'mmm:' + (White_Light.state as DecimalType).intValue*10 + ':'
+	sendCommand(ArduinoControllerRGB,res)
+end
