@@ -38,16 +38,6 @@ then
 	postUpdate(Door_Back, CLOSED)
 end
 
-//  Change the lighting when time pass
-rule "Crontest"
-	when 
-		Time cron "0/4 * * * * ?"
-	then
-		luminosity = Luminosity.state as DecimalType 
-		luminosity = luminosity - 1
-		postUpdate(Luminosity, luminosity)
-		counter = counter + 1
-end
 
 // Day is over, school is closed, the light are disabled
 rule "Lights off"
@@ -118,6 +108,7 @@ rule "Mouvement Detection"
 		}
 end
 
+/* 
 rule "Too much lights"
 	when
 		Item Luminosity received update
@@ -134,6 +125,7 @@ rule "Too much lights"
 			}
 		}
 end
+*/
 
 /**
  * This is a demo rule which simulates a real dimmer by reacting to increase/decrease commands 
@@ -337,8 +329,10 @@ then
 				i=i+1
 			}
 			println("LUMINOSITY")
-			println(lum)
-			
+			println(lum/10);
+			postUpdate(Luminosity,lum/10)
+			var String res='www:' + lum/10 + ':'
+			sendCommand(ArduinoControllerRGB, res)
 		}
 		
 	
