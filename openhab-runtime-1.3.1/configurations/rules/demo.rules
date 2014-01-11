@@ -150,6 +150,36 @@ rule "Room Light"
 		postUpdate(White_Light, percent);
 end
 
+rule "Shutter Back"
+	when
+		Item Shutter_Back received command
+	then
+		var Number percent = 0
+		if(Shutter_Back.state instanceof DecimalType) percent = Shutter_Back.state as DecimalType 
+			
+		if(receivedCommand==INCREASE) percent = percent + 5
+		if(receivedCommand==DECREASE) percent = percent - 5
+
+		if(percent<0)   percent = 0
+		if(percent>100) percent = 100
+		postUpdate(Shutter_Front, percent);
+end
+
+rule "Shutter Front"
+	when
+		Item Shutter_Front received command
+	then
+		var Number percent = 0
+		if(Shutter_Front.state instanceof DecimalType) percent = Shutter_Front.state as DecimalType 
+			
+		if(receivedCommand==INCREASE) percent = percent + 5
+		if(receivedCommand==DECREASE) percent = percent - 5
+
+		if(percent<0)   percent = 0
+		if(percent>100) percent = 100
+		postUpdate(Shutter_Front, percent);
+end
+
 // Serial control of the RGB led with the use of the OpenHAB 
 rule "Color Light Front"
 	when
@@ -163,39 +193,6 @@ rule "Color Light Front"
         var String res = "rgb:" + redValue + ":" + greenValue + ":" + blueValue + ":"
         sendCommand( ArduinoControllerRGB, res )
         sendMail("julien.fleury@ensimag.grenoble-inp.fr", "Alarm : Intrusion in classroom", "An intrusion has been seen in the classroom. Please check ")
-end
-
-rule "Dimmed Shutter Front Up"
-	when
-		Item Shutter_Front received command UP
-	then
-		say("Front Up")
-		// Todo : send a command to the motor
-		
-end
-rule "Dimmed Shutter Front Down"
-	when
-		Item Shutter_Front received command DOWN
-	then
-		say("Front Down")
-		// Todo : send a command to the motor
-		
-end
-rule "Dimmed Shutter Back Up"
-	when
-		Item Shutter_Back received command UP
-	then
-		say("Back Up")
-		// Todo : send a command to the motor
-		
-end
-rule "Dimmed Shutter Back Down"
-	when
-		Item Shutter_Back received command DOWN
-	then
-		say("Back Down")
-		// Todo : send a command to the motor
-		
 end
 
 rule "Scene changing"
@@ -319,14 +316,14 @@ end
 rule shutterFrontControl 
 when Item Shutter_Front received update
 then
-	var String res = "vl1:50:" 
+	var String res = "vl1:" + (Shutter_Front.state as DecimalType).intValue*10 + ':' 
 	sendCommand(ArduinoControllerMOTOR,res)
 end
 
 rule shutterBackControl
 when Item Shutter_Back received update
 then
-	var String res = "vl2:50:"
+	var String res = "vl2:" + (Shutter_Front.state as DecimalType).intValue*10 + ':'
 	sendCommand(ArduinoControllerMOTOR,res)
 end
 
