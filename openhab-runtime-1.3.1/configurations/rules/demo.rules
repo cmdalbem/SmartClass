@@ -69,7 +69,7 @@ rule "Lights on"
 			say("Lights on!")
 		} else if (shutdown == 0) {
 			say("ALARM!")
-			sendMail("julien.fleury@ensimag.grenoble-inp.fr",
+			sendMail("grandemange.kevin@gmail.com",
 				"Alarm : Intrusion in classroom", 
 				"An intrusion has been seen in the classroom."
 			)
@@ -284,8 +284,8 @@ then
 			while (ArduinoControllerLUM.state.toString().charAt(i) != ":".charAt(0)) {
 				lum = lum * 10 + ArduinoControllerLUM.state.toString().charAt(i) - '0'.charAt(0)
 				i=i+1
-				println("LUM")
-				println(lum)
+				var String res = "LUM char=" + ArduinoControllerLUM.state.toString().charAt(i) + "courlum = " + lum 
+				println(res)
 			}
 			postUpdate(Luminosity,lum/10)
 			var String res='www:' + lum + ':'
@@ -309,8 +309,25 @@ then
 end
 
 rule manualLum
+
 when Item White_Light received update
 then
 	var String res = 'mmm:' + (White_Light.state as DecimalType).intValue*10 + ':'
 	sendCommand(ArduinoControllerRGB,res)
 end
+
+rule shutterFrontControl 
+when Item Shutter_Front received update
+then
+	var String res = "vl1:50:" 
+	sendCommand(ArduinoControllerMOTOR,res)
+end
+
+rule shutterBackControl
+when Item Shutter_Back received update
+then
+	var String res = "vl2:50:"
+	sendCommand(ArduinoControllerMOTOR,res)
+end
+
+
