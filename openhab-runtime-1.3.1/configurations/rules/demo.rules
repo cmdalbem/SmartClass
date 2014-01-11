@@ -59,8 +59,7 @@ end
 // Control of the alarm
 rule "Lights on"
 	when
-		Item Door_Front received update OPEN or
-		Item Door_Back received update OPEN
+		Item Mouvement_Detector received update ON
 	then
 		if (shutdown == 1) {
 			shutdown = 2
