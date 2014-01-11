@@ -284,6 +284,8 @@ then
 			while (ArduinoControllerLUM.state.toString().charAt(i) != ":".charAt(0)) {
 				lum = lum * 10 + ArduinoControllerLUM.state.toString().charAt(i) - '0'.charAt(0)
 				i=i+1
+				println("LUM")
+				println(lum)
 			}
 			postUpdate(Luminosity,lum/10)
 			var String res='www:' + lum + ':'
