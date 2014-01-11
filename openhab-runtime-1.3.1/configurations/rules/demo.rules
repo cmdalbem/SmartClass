@@ -150,36 +150,6 @@ rule "Room Light"
 		postUpdate(White_Light, percent);
 end
 
-rule "Shutter Back"
-	when
-		Item Shutter_Back received command
-	then
-		var Number percent = 0
-		if(Shutter_Back.state instanceof DecimalType) percent = Shutter_Back.state as DecimalType 
-			
-		if(receivedCommand==INCREASE) percent = percent + 5
-		if(receivedCommand==DECREASE) percent = percent - 5
-
-		if(percent<0)   percent = 0
-		if(percent>100) percent = 100
-		postUpdate(Shutter_Front, percent);
-end
-
-rule "Shutter Front"
-	when
-		Item Shutter_Front received command
-	then
-		var Number percent = 0
-		if(Shutter_Front.state instanceof DecimalType) percent = Shutter_Front.state as DecimalType 
-			
-		if(receivedCommand==INCREASE) percent = percent + 5
-		if(receivedCommand==DECREASE) percent = percent - 5
-
-		if(percent<0)   percent = 0
-		if(percent>100) percent = 100
-		postUpdate(Shutter_Front, percent);
-end
-
 // Serial control of the RGB led with the use of the OpenHAB 
 rule "Color Light Front"
 	when
@@ -313,18 +283,31 @@ then
 	sendCommand(ArduinoControllerRGB,res)
 end
 
-rule shutterFrontControl 
-when Item Shutter_Front received update
+rule shutterFrontControlOFF 
+when Item Shutter_Front changed from OFF to ON
 then
-	var String res = "vl1:" + (Shutter_Front.state as DecimalType).intValue*10 + ':' 
+	var String res = "vl1:1:"
 	sendCommand(ArduinoControllerMOTOR,res)
 end
 
-rule shutterBackControl
-when Item Shutter_Back received update
+rule shutterFrontControlON
+when Item Shutter_Front changed from ON to OFF
 then
-	var String res = "vl2:" + (Shutter_Front.state as DecimalType).intValue*10 + ':'
+	var String res = "vl1:0:"
 	sendCommand(ArduinoControllerMOTOR,res)
 end
 
+rule shutterBackControlON
+when Item Shutter_Back changed from OFF to ON
+then
+	var String res = "vl2:1:"
+	sendCommand(ArduinoControllerMOTOR,res)
+end
+
+rule shutterBackControlOFF
+when Item Shutter_Back changed from ON to OFF
+then
+	var String res = "vl2:0:"
+	sendCommand(ArduinoControllerMOTOR,res)
+end
 
