@@ -4,7 +4,7 @@ Group GF_Class	"SmartClass" 	<office> 	(All)
 
 /* active groups */
 Group:Switch:OR(ON, OFF) 		Lights 		"LEDs [(%d)]" 								(All)
-Group:Switch:OR(UP, DOWN) 		Shutters 		"Volets [(%d)]" 						(All)
+Group:Switch:OR(ON, OFF) 		Shutters 		"Volets [(%d)]" 						(All)
 
 
 Switch Professor_Presence "Présence du professeur" (GF_Class)
@@ -25,8 +25,8 @@ Color Color_Light_Front 	"Color Front"	(GF_Class, Lights)
 /* Rollershutters */
 Switch Shutter_all (Shutters)
 
-Rollershutter Shutter_Front 		"Front"		(GF_Class, Shutters)
-Rollershutter Shutter_Back 		"Back"		(GF_Class, Shutters)
+Switch Shutter_Front 		"Shutter Front "		(GF_Class, Shutters)
+Switch Shutter_Back 		"Shutter Back "		(GF_Class, Shutters)
 
 
 /* NTP binding demo item */
@@ -40,8 +40,8 @@ Number Scene_General			"Scene"					<sofa>
 Switch Light_Arduino "Arduino" (GF_Class) 
 
 String ArduinoController "ArduinoController[%s]" (GF_Class) 
-String ArduinoControllerRGB "ArduinoControllerRGB [%s] " (GF_Class) {serial="/dev/tty.usbmodem14231"} 
-String ArduinoControllerLUM "ArduinoControllerLUM [%s] " (GF_Class) {serial="/dev/tty.usbmodem14241"} 
-
+String ArduinoControllerRGB "ArduinoControllerRGB [%s] " (GF_Class) {serial="/dev/ttyACM0"} 
+String ArduinoControllerLUM "ArduinoControllerLUM [%s] " (GF_Class) {serial="/dev/ttyACM1"} 
+String ArduinoControllerMOTOR "ArduinoControllerMOTOR [%s] " (GF_Class) {serial="/dev/ttyACM2"}
 
 

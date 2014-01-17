@@ -59,8 +59,7 @@ end
 // Control of the alarm
 rule "Lights on"
 	when
-		Item Door_Front received update OPEN or
-		Item Door_Back received update OPEN
+		Item Mouvement_Detector received update ON
 	then
 		if (shutdown == 1) {
 			shutdown = 2
@@ -166,39 +165,6 @@ rule "Color Light Front"
         sendMail("julien.fleury@ensimag.grenoble-inp.fr", "Alarm : Intrusion in classroom", "An intrusion has been seen in the classroom. Please check ")
 end
 
-rule "Dimmed Shutter Front Up"
-	when
-		Item Shutter_Front received command UP
-	then
-		say("Front Up")
-		// Todo : send a command to the motor
-		
-end
-rule "Dimmed Shutter Front Down"
-	when
-		Item Shutter_Front received command DOWN
-	then
-		say("Front Down")
-		// Todo : send a command to the motor
-		
-end
-rule "Dimmed Shutter Back Up"
-	when
-		Item Shutter_Back received command UP
-	then
-		say("Back Up")
-		// Todo : send a command to the motor
-		
-end
-rule "Dimmed Shutter Back Down"
-	when
-		Item Shutter_Back received command DOWN
-	then
-		say("Back Down")
-		// Todo : send a command to the motor
-		
-end
-
 rule "Scene changing"
 	when
 		Item Scene_General received command
@@ -285,6 +251,8 @@ then
 			while (ArduinoControllerLUM.state.toString().charAt(i) != ":".charAt(0)) {
 				lum = lum * 10 + ArduinoControllerLUM.state.toString().charAt(i) - '0'.charAt(0)
 				i=i+1
+				var String res = "LUM char=" + ArduinoControllerLUM.state.toString().charAt(i) + "courlum = " + lum 
+				println(res)
 			}
 			postUpdate(Luminosity,lum/10)
 			var String res='www:' + lum + ':'
@@ -308,8 +276,38 @@ then
 end
 
 rule manualLum
+
 when Item White_Light received update
 then
 	var String res = 'mmm:' + (White_Light.state as DecimalType).intValue*10 + ':'
 	sendCommand(ArduinoControllerRGB,res)
 end
+
+rule shutterFrontControlOFF 
+when Item Shutter_Front changed from OFF to ON
+then
+	var String res = "vl1:1:"
+	sendCommand(ArduinoControllerMOTOR,res)
+end
+
+rule shutterFrontControlON
+when Item Shutter_Front changed from ON to OFF
+then
+	var String res = "vl1:0:"
+	sendCommand(ArduinoControllerMOTOR,res)
+end
+
+rule shutterBackControlON
+when Item Shutter_Back changed from OFF to ON
+then
+	var String res = "vl2:1:"
+	sendCommand(ArduinoControllerMOTOR,res)
+end
+
+rule shutterBackControlOFF
+when Item Shutter_Back changed from ON to OFF
+then
+	var String res = "vl2:0:"
+	sendCommand(ArduinoControllerMOTOR,res)
+end
+
