@@ -70,7 +70,7 @@ rule "Lights on"
 			say("Lights on!")
 		} else if (shutdown == 0) {
 			say("ALARM!")
-			sendMail("julien.fleury@ensimag.grenoble-inp.fr",
+			sendMail("email_gestionnaire@gmail.com",
 				"Alarm : Intrusion in classroom", 
 				"An intrusion has been seen in the classroom."
 			)
