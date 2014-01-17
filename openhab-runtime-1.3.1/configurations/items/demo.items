@@ -7,6 +7,7 @@ Group:Switch:OR(ON, OFF) 		Lights 		"LEDs [(%d)]" 								(All)
 Group:Switch:OR(ON, OFF) 		Shutters 		"Volets [(%d)]" 						(All)
 
 
+
 Switch Professor_Presence "Présence du professeur" (GF_Class)
 Switch Mouvement_Detector "Présence de personnes" (GF_Class)
 

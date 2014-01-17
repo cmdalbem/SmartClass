@@ -2,9 +2,12 @@ import org.openhab.core.library.types.*
 import org.openhab.core.persistence.*
 import org.openhab.model.script.actions.*
 import java.lang.*
-var Integer lum = 0
-var Boolean autoLum = true
 
+// luminosity
+var Integer lum = 0
+// do we want to control the light or to let it work automaticaly
+var Boolean autoLum = true
+// Is the presence in the room allowed ?
 var Number shutdown = 1
 
 
@@ -87,6 +90,8 @@ rule "Mouvement Detection"
 		}
 end
 
+// a professor has entered the room
+// the course has begun, streaming is on
 rule "Professor scan tag"
 	when
 		Item Professor_Presence received update ON
@@ -94,6 +99,7 @@ rule "Professor scan tag"
 		sendHttpGetRequest("http://192.168.42.1:1000/active_stream?on=true")
 end
 
+// the course has ended, streaming is off
 rule "End of course"
 	when
 		Item Professor_Presence received update OFF
@@ -101,10 +107,6 @@ rule "End of course"
 		sendHttpGetRequest("http://192.168.42.1:1000/active_stream?on=false")
 end
 
-/**
- * This is a demo rule which simulates a real dimmer by reacting to increase/decrease commands 
- * and posting an updated state on the bus 
- */
 rule "Dimmed Light Front"
 	when
 		Item Light_Front received command
@@ -134,7 +136,7 @@ rule "Dimmed Light Back"
 		if(percent>100) percent = 100
 		postUpdate(Light_Back, percent);
 end
-
+// gradually augmenting the lights when the button in the interface is pressed
 rule "Room Light"
 	when
 		Item White_Light received command
@@ -162,9 +164,9 @@ rule "Color Light Front"
         var Number blueValue  = hsbValue.blue.intValue
         var String res = "rgb:" + redValue + ":" + greenValue + ":" + blueValue + ":"
         sendCommand( ArduinoControllerRGB, res )
-        sendMail("julien.fleury@ensimag.grenoble-inp.fr", "Alarm : Intrusion in classroom", "An intrusion has been seen in the classroom. Please check ")
 end
 
+// rule called by the calendar when a course begin in order to change the color of the lights
 rule "Scene changing"
 	when
 		Item Scene_General received command
@@ -226,6 +228,7 @@ rule "Select Radio Station"
 		}
 end
 
+// Rule in order to test the serials at the beginning (ArduinoController is a false serial). This rule is debug rule and has no purpose for the real application
 rule turnLightOn
 when Item Light_Arduino changed from ON to OFF
 
@@ -240,7 +243,7 @@ then
 	sendCommand(ArduinoController,"abc\r\n")
 end	
 
-// Get the luminosity from the arduino sensor 
+// Get the luminosity from the arduino sensor and use it to adapt the luminosity of the room
 rule controlLuminosity
 when Item ArduinoControllerLUM received update
 
@@ -251,11 +254,11 @@ then
 			while (ArduinoControllerLUM.state.toString().charAt(i) != ":".charAt(0)) {
 				lum = lum * 10 + ArduinoControllerLUM.state.toString().charAt(i) - '0'.charAt(0)
 				i=i+1
-				var String res = "LUM char=" + ArduinoControllerLUM.state.toString().charAt(i) + "courlum = " + lum 
-				println(res)
 			}
+			// lum is now the luminosity
 			postUpdate(Luminosity,lum/10)
 			var String res='www:' + lum + ':'
+			// if the luminosity is automaticaly updated, we send, using the serial, the value of the luminosity. The arduino will then process it and decide what to do with it.
 			if (autoLum) {
 				sendCommand(ArduinoControllerRGB, res)
 			}
@@ -275,6 +278,7 @@ then
 	autoLum = false
 end
 
+// When manual mode is enabled for the luminosity
 rule manualLum
 
 when Item White_Light received update
@@ -283,6 +287,7 @@ then
 	sendCommand(ArduinoControllerRGB,res)
 end
 
+// rules for the motors controls
 rule shutterFrontControlOFF 
 when Item Shutter_Front changed from OFF to ON
 then
